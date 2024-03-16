@@ -933,8 +933,45 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #f1f1f1;
 }
+.sidebar a.bar {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar a.active {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  background-color: #656565;
+  color: white;
+}
+.sidebar a:hover:not(.active) {
+  background-color: #00000091;
+  color: white;
+}
+
+/* 活动/当前链接 */
+/* .sidebar b.active {
+  background-color: #f1f1f1;
+  color: black;
+} */
+
+/* 鼠标悬停链接 */
+/* .sidebar b:hover:not(.active) {
+  background-color: #555;
+  color: white;
+} */
+
+/* 页面内容。 margin-left 属性的值应该与侧边栏的 width 属性的值匹配 */
+/* div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+} */
 
 .about {
   margin: 0 0 40px;
