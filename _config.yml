@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Haoquan is a bachelor student at Sun Yat-Sen University.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nickchen-push.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "chen-hq.site" # the base hostname & protocol for your site, e.g. http://example.com
 # site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
@@ -24,6 +24,7 @@ social-email: nickchen_chqchq@icloud.com # add your Email address
 
 # Build Settings
 markdown: kramdown
+
 plugins:
   - jekyll-sitemap
   - jekyll-paginate

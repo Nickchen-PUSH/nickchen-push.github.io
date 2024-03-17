@@ -15,24 +15,28 @@ this is a tent  :tent:
 ~~delete line~~
 
 |this    | is |
-| ----------- | ----------- |
+| --- | --|
 | a      | Table      |
-| Paragraph   | Text        |
+| Paragraph   | Textaaaaaa        |
 
-[this is a link](chen-hq.site "my ssite")
+[this is a link](chen-hq.site "my site")
 
-$$
-this\ is\ an\ equation\\
+$
+this\ is\ an\ equation 
 x+y=10 \\
 x-y=6 \\
 2x=16 \\
 x=8\\
 y=2\\
-$$
+$
 
 $x^2 + 2x + 5 + \sqrt x = 0$  
 
-$\begin{cases} x+y+z=10\\ x+2y+3z=20\\ x+4y+5z=30 \end{cases}$
+$\begin{cases}
+x+y+z=10   
+x+2y+3z=20  
+x+4y+5z=30   
+\end{cases}$
 
 $\sum_{i=1}^{n}$，$\sum_{i=1}^nx_i$,$\prod\limits_{i=1}^n$,$\frac 1 5$，$\frac{x+1}{x^2}$,$9 \times 8 = 72$
 $5 \cdot 6 = 30$
@@ -40,7 +44,14 @@ $30 \div 6 = 5$
 
 $y= \begin{cases} x^2, & x>0,\\ x^2 +x-8, & x \le 0 \end{cases}$
 
-$\left( \begin{array}{ccc} 1 & 2 & 3\\ 4 & 5 & 6\\ 7 & 8 & 9\\ \end{array} \right)$
+$$
+\begin{matrix}
+    1 & 2 & 3 \\
+    4 & 5 & 6 \\
+    7 & 8 & 9
+\end{matrix} 
+$$
+
 
 $e^{i\pi} + 1 = 0$
 
@@ -63,3 +74,7 @@ $\hbar\frac
 {\partial y^2}+\frac{\partial^2}
 {\partial z^2}
 \right) \psi + V \psi$
+
+
+**The Cauchy-Schwarz Inequality**  
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
