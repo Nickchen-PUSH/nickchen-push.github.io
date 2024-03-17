@@ -8,7 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [resume, aboutme]
 ---
 
-**陈淏泉 ｜ Haoquan Chen**
+# **陈淏泉 ｜ Haoquan Chen**
 
 Bachelor Student  
 School of Computer Science & Engineering  
@@ -18,30 +18,29 @@ Email: chenhq79@mail2.sysu.edu.cn
 
 ---
 
-**About:**
+## **About:**
 
-Dynamic and highly motivated Computer Science student seeking opportunities to apply technical skills and knowledge in a challenging environment to contribute to innovative projects.
+Haoquan is a dynamic and highly motivated Computer Science student seeking opportunities to apply technical skills in practising, gain knowledge in challenging environments, and contribute to innovative projects.
 
-**Education:**
+## **Education:**
 
 - Bachelor of Engineering in Computer Science and Technology   
   Sun Yat-Sen University, Guangzhou, China  
   Expected Graduation: June,2027  
 
-**Relevant Coursework:**
+## **Relevant Coursework:**
 
 - Object-Oriented Programming
 - Data Structure and Alghorithm
 - Compilation Principle
-- High Performance Computing
 
-**Skills:**
+## **Skills:**
 
 - Programming Languages: C&C++, Python
 - Tools: Git, Visual Studio Code
 - Operating Systems: MacOS, Linux
 
-**Projects:**
+## **Projects:**
 
 1. **Research and implementation of machine learning-driven compilation optimization tailored for domestic processors.**  
    - Aim to develop a learning-driven method for compilation optimization on domestic processors. 
@@ -49,7 +48,7 @@ Dynamic and highly motivated Computer Science student seeking opportunities to a
    - *Still ongoing...*
 
 
-**Experience:**
+## **Experience:**
 
 - **Teaching Assistant**  
   DCS290 - Compilation Principle  
@@ -59,8 +58,8 @@ Dynamic and highly motivated Computer Science student seeking opportunities to a
 
 
 
-**Publications:**  
+### **Publications:**  
 - *too soon*
 
-**Miscellaneous:**  
+### **Miscellaneous:**  
 I also play the violin
