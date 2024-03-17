@@ -9,7 +9,7 @@ url: "chen-hq.site" # the base hostname & protocol for your site, e.g. http://ex
 # Author Settings
 author: Haoquan CHEN # add your name
 author-img: cat.JPG # add your photo
-about-author: I'm a CSE student at <br> Sun Yat-Sen University. <br>  Always hungry to learn. # add description
+about-author: I'm a CS student at <br> Sun Yat-Sen University. <br>  Always hungry to learn. # add description
 # social-twitter: # add your Twitter handle
 # social-facebook: # add your Facebook handle
 social-github: Nickchen-PUSH # add your Github handle

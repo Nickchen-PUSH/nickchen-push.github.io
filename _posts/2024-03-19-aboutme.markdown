@@ -1,0 +1,66 @@
+---
+layout: post
+title: About me
+date: 2024-03-19 00:00:00 +0800
+description: Haoquan Chen's blog # Add post description (optional)
+img: software.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [test, ignoreme]
+---
+
+**陈淏泉 ｜ Haoquan Chen**
+
+Bachelor Student  
+School of Computer Science & Engineering  
+Sun Yat-sen University  
+Guangzhou, China  51005  
+Email: chenhq79@mail2.sysu.edu.cn  
+
+---
+
+**About:**
+
+Dynamic and highly motivated Computer Science student seeking opportunities to apply technical skills and knowledge in a challenging environment to contribute to innovative projects.
+
+**Education:**
+
+- Bachelor of Engineering in Computer Science and Technology   
+  Sun Yat-Sen University, Guangzhou, China  
+  Expected Graduation: June,2027  
+
+**Relevant Coursework:**
+
+- Object-Oriented Programming
+- Data Structure and Alghorithm
+- Compilation Principle
+- High Performance Computing
+
+**Skills:**
+
+- Programming Languages: C&C++, Python
+- Tools: Git, Visual Studio Code
+- Operating Systems: MacOS, Linux
+
+**Projects:**
+
+1. **Research and implementation of machine learning-driven compilation optimization tailored for domestic processors.**  
+   - Aim to develop a learning-driven method for compilation optimization on domestic processors. 
+   - Advised by [Dr.Xianwei Zhang](https://xianweiz.github.io)
+   - *Still ongoing...*
+
+
+**Experience:**
+
+- **Teaching Assistant**  
+  DCS290 - Compilation Principle  
+  Spring, 2024
+  - Assisted in supplementing documentation for course lab project.
+  - Collaborated with TA team members to troubleshoot and resolve technical issues.
+
+
+
+**Publications:**  
+- *too soon*
+
+**Miscellaneous:**  
+I also play the violin
