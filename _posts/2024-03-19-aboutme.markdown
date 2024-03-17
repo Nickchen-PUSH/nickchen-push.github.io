@@ -2,10 +2,10 @@
 layout: post
 title: About me
 date: 2024-03-19 00:00:00 +0800
-description: Haoquan Chen's blog # Add post description (optional)
+description: Haoquan Chen's resume # Add post description (optional)
 img: software.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [test, ignoreme]
+tags: [resume, aboutme]
 ---
 
 **陈淏泉 ｜ Haoquan Chen**
