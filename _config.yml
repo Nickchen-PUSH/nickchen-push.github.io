@@ -2,7 +2,7 @@ title: 陈淏泉｜Haoquan Chen's Site
 description: > # this means to ignore newlines until "baseurl:"
   Haoquan is a bachelor student at Sun Yat-Sen University.
 permalink: ':title/'
-baseurl: "/myblog" # the subpath of your site, e.g. /blog
+baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "https://nickchen-push.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # site-twitter: #if your site has a twitter account, enter it here
 
