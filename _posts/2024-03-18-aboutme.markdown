@@ -10,7 +10,7 @@ tags: [resume, aboutme]
 
 # **陈淏泉 ｜ Haoquan Chen**
 
-Bachelor Student  
+Undergraduate Student  
 School of Computer Science & Engineering  
 Sun Yat-sen University  
 Guangzhou, China  51005  
@@ -21,7 +21,7 @@ Github:[Nickchen-PUSH](https://github.com/Nickchen-PUSH)
 
 ## **About:**
 
-Haoquan is a dynamic and highly motivated Computer Science student seeking opportunities to apply technical skills in practising, gain knowledge in challenging environments, and contribute to innovative projects.
+Haoquan is a dynamic and highly motivated Computer Science undergraduate student seeking opportunities to apply technical skills in practising, gain knowledge in challenging environments, and contribute to innovative projects.
 
 ## **Education:**
 
@@ -57,10 +57,8 @@ Haoquan is a dynamic and highly motivated Computer Science student seeking oppor
   - Assisted in supplementing documentation for course lab project.
   - Collaborated with TA team members to troubleshoot and resolve technical issues.
 
-
-
 ### **Publications:**  
-- *too soon*
+- At present, I have not authored any publications. My focus lies in enhancing my capacity to identify issues, articulate concepts, and resolve challenges with the guidance of [Dr. Xianwei Zhang](https://xianweiz.github.io). I aspire to publish my scholarly works in the near future.
 
 ### **Miscellaneous:**  
-I also play the violin
+I also play the violin. 
