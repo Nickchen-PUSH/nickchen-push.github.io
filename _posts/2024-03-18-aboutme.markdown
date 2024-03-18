@@ -43,8 +43,8 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
 
 ## **Projects:**
 
-1. **Research and implementation of machine learning-driven compilation optimization tailored for domestic processors.**  
-   - Aim to develop a learning-driven method for compilation optimization on domestic processors. 
+1. **Research and implementation of machine learning-driven compilation optimization for ARM and RISC-V.**  
+   - Aim to develop a machine learning-driven method for compilation optimization on ARM and RISC-V architectures, targeting specific CPUs.
    - Advised by [Dr.Xianwei Zhang](https://xianweiz.github.io)
    - *Still ongoing...*
 
@@ -58,7 +58,7 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
   - Collaborated with TA team members to troubleshoot and resolve technical issues.
 
 ### **Publications:**  
-- At present, I have not authored any publications. My focus lies in enhancing my capacity to identify issues, articulate concepts, and resolve challenges with the guidance of [Dr. Xianwei Zhang](https://xianweiz.github.io). I aspire to publish my scholarly works in the near future.
+- At present, I have not authored any publications. My focus lies in enhancing my capacity to finding problems, presenting ideas and solving problems with the guidance of [Dr. Xianwei Zhang](https://xianweiz.github.io). I aspire to publish my scholarly works in the foreseable future.
 
 ### **Miscellaneous:**  
 I also play the violin. 
