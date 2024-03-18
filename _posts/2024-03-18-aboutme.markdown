@@ -39,6 +39,7 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
 
 - Programming Languages: C&C++, Python
 - Tools: Git, Visual Studio Code
+- Workflow: OpenMP, MPI
 - Operating Systems: MacOS, Linux
 
 ## **Projects:**
