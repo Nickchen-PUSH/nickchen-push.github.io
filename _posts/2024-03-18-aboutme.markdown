@@ -56,7 +56,11 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
   DCS290 - Compilation Principle  
   Spring, 2024
   - Assisted in supplementing documentation for course lab project.
-  - Collaborated with TA team members to troubleshoot and resolve technical issues.
+  - Collaborated with TA team members to troubleshoot and resolve technical issues.  
+ 
+- **Teaching Assistant**  
+  AR0035 - Symphony Art
+  Autumn, 2024
 
 ### **Publications:**  
 - At present, I have not authored any publications. My focus lies in enhancing my ability of finding problems, presenting ideas and solving problems with the guidance of [Dr. Xianwei Zhang](https://xianweiz.github.io). I aspire to publish my scholarly works in the foreseable future.
