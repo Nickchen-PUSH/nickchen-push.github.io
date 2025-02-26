@@ -21,36 +21,51 @@ Github:[Nickchen-PUSH](https://github.com/Nickchen-PUSH)
 
 ## **About:**
 
-Haoquan is a dynamic and highly motivated Computer Science undergraduate student. He is now seeking opportunities to apply technical skills in practising, gain knowledge in challenging environments, and contribute to innovative projects. 
+Haoquan is a dynamic and highly motivated Computer Science undergraduate student mentored by Assoc. Prof [Xianwei Zhang](https://xianweiz.github.io). He is now seeking opportunities to apply technical skills in practising, gain knowledge in challenging environments, and contribute to innovative projects. 
 
 ## **Education:**
 
-- Undergraduate stuident of Computer Science and Technology   
+- Undergraduate student of Computer Science and Technology   
   Sun Yat-Sen University, Guangzhou, China  
   Expected Graduation: June,2027  
 
 ## **Relevant Coursework:**
 
-- Object-Oriented Programming
-- Data Structure and Alghorithm
-- Compilation Principle
+- **YatCC**  
+  - A modern experimental framework built on the open-source LLVM for compiler construction training and practices compiler construction training and practices
+- **YatCPU**
+  - An open source RISC-V processor, based on the Chisel hardware design language
 
 ## **Skills:**
 
 - Programming Languages: C&C++, Python
 - Workflow: Git, Visual Studio Code
-- Tools: LLVM, OpenMP, MPI
-- Operating Systems: MacOS, Linux
+- Tools: LLVM, OpenMP, MPI, Flask, Redis
 
-<!-- ## **Projects:**
+## **Projects:**
 
-1. **Research and implementation of machine learning-driven compilation optimization for ARM and RISC-V.**  
-   - Aim to develop a machine learning-driven method for compilation optimization on ARM and RISC-V architectures, targeting specific CPUs.
-   - Advised by [Dr.Xianwei Zhang](https://xianweiz.github.io)
-   - *Still ongoing...* -->
+1. [**YatCC-AI**](http://yatcc-ai.com) | Full-Stack HPC+AI Education Platform
+  -  A **DeepSeek**-powered, web-based experience, allowing users to instantly access the **Codespace** via a browser with no setup required. 
+  - Integrating **HPC** and generative AI to revolutionize compiler education.  
+  - Technologies: Kubernetes, Redis, LLVM/Clang, DeepSeek-R1
+
+
+2. **Machine learning-driven compilation optimization for ARM and RISC-V.**  
+  - Aim to develop a machine learning-driven method for compilation optimization on ARM and RISC-V architectures, targeting specific CPUs.
 
 
 ## **Experience:**
+
+- **Teaching Assistant**  
+  DCS290 - Compilation Principle  
+  Spring, 2025
+  - Member of the YatCC-OL team led by [Yuhao Gu](https://yhgu2000.github.io)
+  - Involved in the development of YatCC-OL, enabling users to access the **Codespace** platform based on the Tianhe "Xingyi" supercomputer via a browser with no setup required.
+  - Collaborated with team members to troubleshoot and resolve technical issues.
+
+- **Teaching Assistant**  
+  AR0035 - Symphony Art  
+  Autumn, 2024
 
 - **Teaching Assistant**  
   DCS290 - Compilation Principle  
@@ -58,12 +73,9 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
   - Assisted in supplementing documentation for course lab project.
   - Collaborated with TA team members to troubleshoot and resolve technical issues.  
  
-- **Teaching Assistant**  
-  AR0035 - Symphony Art  
-  Autumn, 2024
 
 ### **Publications:**  
 - At present, I have not authored any publications. My focus lies in enhancing my ability of finding problems, presenting ideas and solving problems with the guidance of [Dr. Xianwei Zhang](https://xianweiz.github.io). I aspire to publish my scholarly works in the foreseable future.
 
 ### **Miscellaneous:**  
-I also play the violin. 
+I also play the violin.
