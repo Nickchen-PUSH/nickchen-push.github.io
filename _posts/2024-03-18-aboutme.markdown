@@ -1,37 +1,36 @@
 ---
 layout: post
 title: About me
-date: 2024-03-18 00:00:00 +0800
+date: 2025-07-15 00:00:00 +0800
 description: Haoquan Chen's resume # Add post description (optional)
 img: software.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [resume, aboutme]
 ---
-
 # **陈淏泉 ｜ Haoquan Chen**
 
-Undergraduate Student  
-School of Computer Science & Engineering  
-Sun Yat-sen University  
-Guangzhou, China  51005  
-Email: [chenhq79@mail2.sysu.edu.cn](chenhq79@mail2.sysu.edu.cn)  
-Github:[Nickchen-PUSH](https://github.com/Nickchen-PUSH)  
+Undergraduate Student
+School of Computer Science & Engineering
+Sun Yat-sen University
+Guangzhou, China  51005
+Email: [chenhq79@mail2.sysu.edu.cn](chenhq79@mail2.sysu.edu.cn)
+Github:[Nickchen-PUSH](https://github.com/Nickchen-PUSH)
 
 ---
 
 ## **About:**
 
-Haoquan is a dynamic and highly motivated Computer Science undergraduate student mentored by Assoc. Prof [Xianwei Zhang](https://xianweiz.github.io). He is now seeking opportunities to apply technical skills in practising, gain knowledge in challenging environments, and contribute to innovative projects. 
+Haoquan is a dynamic and highly motivated Computer Science undergraduate student mentored by Assoc. Prof [Xianwei Zhang](https://xianweiz.github.io). He is now seeking opportunities to apply technical skills in practising, gain knowledge in challenging environments, and contribute to innovative projects.
 
 ## **Education:**
 
-- Undergraduate student of Computer Science and Technology   
-  Sun Yat-Sen University, Guangzhou, China  
-  Expected Graduation: June,2027  
+- Undergraduate student of Computer Science and Technology
+  Sun Yat-Sen University, Guangzhou, China
+  Expected Graduation: June, 2027
 
 ## **Relevant Coursework:**
 
-- **YatCC**  
+- **YatCC**
   - A modern experimental framework built on the open-source LLVM for compiler construction training and practices compiler construction training and practices
 - **YatCPU**
   - An open source RISC-V processor, based on the Chisel hardware design language
@@ -39,43 +38,40 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
 ## **Skills:**
 
 - Programming Languages: C&C++, Python
-- Workflow: Git, Visual Studio Code
-- Tools: LLVM, OpenMP, MPI, Flask, Redis
+- Tools: OpenMP, MPI, Docker, Flask, Redis, Kubernetes, LLVM/Clang
 
 ## **Projects:**
 
 1. [**YatCC-AI**](http://yatcc-ai.com) | Full-Stack HPC+AI Education Platform
-  -  A **DeepSeek**-powered, web-based experience, allowing users to instantly access the **Codespace** via a browser with no setup required. 
-  - Integrating **HPC** and generative AI to revolutionize compiler education.  
-  - Technologies: Kubernetes, Redis, LLVM/Clang, DeepSeek-R1
 
+- A **DeepSeek**-powered, web-based experience, allowing users to instantly access the **Codespace** via a browser with no setup required.
+- Integrating **HPC** and generative AI to revolutionize compiler education.
+- Technologies: Redis, Flask, Docker, LLVM/Clang,  Kubernetes, Tianhe "Xingyi" supercomputer, DeepSeek-R1
 
-2. **Machine learning-driven compilation optimization for ARM and RISC-V.**  
-  - Aim to develop a machine learning-driven method for compilation optimization on ARM and RISC-V architectures, targeting specific CPUs.
+2. **Machine learning-driven compilation optimization for ARM and RISC-V.**
 
+- Aim to develop a machine learning-driven method for compilation optimization on ARM and RISC-V architectures, targeting specific CPUs.
 
 ## **Experience:**
 
-- **Teaching Assistant**  
-  DCS290 - Compilation Principle  
-  Spring, 2025
+- **Teaching Assistant**DCS290 - Compilation PrincipleSpring, 2025
+
   - Member of the YatCC-OL team led by [Yuhao Gu](https://yhgu2000.github.io)
-  - Involved in the development of YatCC-OL, enabling users to access the **Codespace** platform based on the Tianhe "Xingyi" supercomputer via a browser with no setup required.
+  - Contributed to the development of YatCC-OL, a cloud-based platform that provides seamless browser access to VSCode development environments powered by the Tianhe "Xingyi" supercomputer infrastructure.
   - Collaborated with team members to troubleshoot and resolve technical issues.
+- **Teaching Assistant**AR0035 - Symphony ArtAutumn, 2024
+- **Teaching Assistant**DCS290 - Compilation PrincipleSpring, 2024
 
-- **Teaching Assistant**  
-  AR0035 - Symphony Art  
-  Autumn, 2024
-
-- **Teaching Assistant**  
-  DCS290 - Compilation Principle  
-  Spring, 2024
   - Assisted in supplementing documentation for course lab project.
-  - Collaborated with TA team members to troubleshoot and resolve technical issues.  
- 
+  - Collaborated with TA team members to troubleshoot and resolve technical issues.
 
-### **Publications:**  
-- At present, I have not authored any publications. My focus lies in enhancing my ability of finding problems, presenting ideas and solving problems with the guidance of [Dr. Xianwei Zhang](https://xianweiz.github.io). I aspire to publish my scholarly works in the foreseable future.
+### **Publications:**
 
-### **Miscellaneous:**  
-I also play the violin.
+- coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability
+  - Y. Gu, **H. Chen**, X. Chen, J. Du, Z. Chen, N. Xiao, X. Zhang, Y. Lu. *SC'2025* (CCF-A)
+- CWL-Bubble: Extending CWL for Dynamic Scientific Workflows
+  - C. Chen, **H. Chen**, Y. Han, Y. Gu, X. Zhang. *ICCCS'2025*.
+
+### **Miscellaneous:**
+
+I also play the violin. Though not a professional, I enjoy playing it. Music has inspired me along my journey.
