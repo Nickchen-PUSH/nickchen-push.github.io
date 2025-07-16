@@ -42,26 +42,30 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
 
 ## **Projects:**
 
-1. [**YatCC-AI**](http://yatcc-ai.com) | Full-Stack HPC+AI Education Platform
+1. [**YatCC-AI**](http://yatcc-ai.com) \| Full-Stack HPC+AI Education Platform
 
 - A **DeepSeek**-powered, web-based experience, allowing users to instantly access the **Codespace** via a browser with no setup required.
 - Integrating **HPC** and generative AI to revolutionize compiler education.
-- Technologies: Redis, Flask, Docker, LLVM/Clang,  Kubernetes, Tianhe "Xingyi" supercomputer, DeepSeek-R1
+- Technologies: Redis, Flask, Docker, LLVM/Clang,  Kubernetes, LLM
 
-2. **Machine learning-driven compilation optimization for ARM and RISC-V.**
+1. **Machine learning-driven compilation optimization for ARM and RISC-V.**
 
 - Aim to develop a machine learning-driven method for compilation optimization on ARM and RISC-V architectures, targeting specific CPUs.
 
 ## **Experience:**
 
-- **Teaching Assistant**DCS290 - Compilation PrincipleSpring, 2025
-
+- **Teaching Assistant** 
+  - DCS290 - Compilation Principle
+  - Spring, 2025
   - Member of the YatCC-OL team led by [Yuhao Gu](https://yhgu2000.github.io)
-  - Contributed to the development of YatCC-OL, a cloud-based platform that provides seamless browser access to VSCode development environments powered by the Tianhe "Xingyi" supercomputer infrastructure.
+  - Contributed to the development of YatCC-OL, a cloud-based platform that provides seamless browser access to VSCode development environments.
   - Collaborated with team members to troubleshoot and resolve technical issues.
-- **Teaching Assistant**AR0035 - Symphony ArtAutumn, 2024
-- **Teaching Assistant**DCS290 - Compilation PrincipleSpring, 2024
-
+- **Teaching Assistant** 
+  - AR0035 - Symphony Art
+  - Autumn, 2024
+- **Teaching Assistant** 
+  - DCS290 - Compilation Principle
+  - Spring, 2024
   - Assisted in supplementing documentation for course lab project.
   - Collaborated with TA team members to troubleshoot and resolve technical issues.
 
@@ -69,6 +73,8 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
 
 - coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability
   - Y. Gu, **H. Chen**, X. Chen, J. Du, Z. Chen, N. Xiao, X. Zhang, Y. Lu. *SC'2025* (CCF-A)
+
+
 - CWL-Bubble: Extending CWL for Dynamic Scientific Workflows
   - C. Chen, **H. Chen**, Y. Han, Y. Gu, X. Zhang. *ICCCS'2025*.
 
