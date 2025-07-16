@@ -12,7 +12,7 @@ tags: [resume, aboutme]
 Undergraduate Student  
 School of Computer Science & Engineering  
 Sun Yat-sen University  
-Guangzhou, China  51005  
+Guangzhou, China  510006  
 Email: [chenhq79@mail2.sysu.edu.cn](chenhq79@mail2.sysu.edu.cn)  
 Github:[Nickchen-PUSH](https://github.com/Nickchen-PUSH)  
 
@@ -24,9 +24,9 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
 
 ## **Education:**
 
-- Undergraduate student of Computer Science and Technology
-  Sun Yat-Sen University, Guangzhou, China
-  Expected Graduation: June, 2027
+- Undergraduate student of Computer Science and Technology  
+  Sun Yat-Sen University, Guangzhou, China  
+  Expected Graduation: June, 2027  
 
 ## **Relevant Coursework:**
 
@@ -44,7 +44,7 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
 
 1. [**YatCC-AI**](http://yatcc-ai.com) \| Full-Stack HPC+AI Education Platform
 
-- A **DeepSeek**-powered, web-based experience, allowing users to instantly access the **Codespace** via a browser with no setup required.
+- A **LLM**-powered, web-based experience, allowing users to instantly access the **Codespace** via a browser with no setup required.
 - Integrating **HPC** and generative AI to revolutionize compiler education.
 - Technologies: Redis, Flask, Docker, LLVM/Clang,  Kubernetes, LLM
 
