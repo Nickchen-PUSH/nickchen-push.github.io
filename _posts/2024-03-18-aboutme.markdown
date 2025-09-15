@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About me
-date: 2025-07-15 00:00:00 +0800
+date: 2025-09-15 00:00:00 +0800
 description: Haoquan Chen's resume # Add post description (optional)
 img: software.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
@@ -20,37 +20,45 @@ Github:[Nickchen-PUSH](https://github.com/Nickchen-PUSH)
 
 ## **About:**
 
-Haoquan is a dynamic and highly motivated Computer Science undergraduate student mentored by Assoc. Prof [Xianwei Zhang](https://xianweiz.github.io). He is now seeking opportunities to apply technical skills in practising, gain knowledge in challenging environments, and contribute to innovative projects.
+Haoquan is a highly motivated Computer Science undergraduate mentored by Dr. [Xianwei Zhang](https://xianweiz.github.io). He is a member of the Student Cluster Competition team and is seeking opportunities to apply his technical skills, deepen knowledge in challenging environments, and contribute to innovative projects.
 
 ## **Education:**
 
-- Undergraduate student of Computer Science and Technology  
+- Undergraduate student  
+  Computer Science and Technology  
   Sun Yat-Sen University, Guangzhou, China  
   Expected Graduation: June, 2027  
 
-## **Relevant Coursework:**
+## **Publications:**
 
-- **YatCC**
-  - A modern experimental framework built on the open-source LLVM for compiler construction training and practices compiler construction training and practices
-- **YatCPU**
-  - An open source RISC-V processor, based on the Chisel hardware design language
+- **coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability**
+  - Y. Gu, **H. Chen**, X. Chen, J. Du, Z. Chen, N. Xiao, X. Zhang, Y. Lu. *SC'2025* (CCF-A)
+  - Introduced **coMtainer**, a compilation-assisted image transformation framework that embeds build-time information to enable system-specific specialization and improve performance portability across heterogeneous HPC environments.
+  - Designed and executed performance evaluation on ARM and x86 clusters, demonstrating **coMtainer**’s effectiveness in optimizing execution efficiency for real-world HPC applications.
 
-## **Skills:**
 
-- Programming Languages: C&C++, Python
-- Tools: OpenMP, MPI, Docker, Flask, Redis, Kubernetes, LLVM/Clang
+- **CWL-Bubble: Extending CWL for Dynamic Scientific Workflows**
+  - C. Chen, **H. Chen**, Y. Han, Y. Gu, X. Zhang. *ICCCS'2025*.
+  - Introduced CWL-Bubble, an extension to the Common Workflow Language that supports dynamic task generation (loops, recursion) to improve adaptability and execution efficiency in complex scientific workflows while maintaining CWL compatibility.
+  - Designed and executed experiments to evaluate CWL-Bubble on complex scientific workflows.
+## **Awards:**
 
-## **Projects:**
+- **1st Place Online Winner**, ISC25 Student Cluster Competition
+  - Perform optimizations of *OpenMX(Open source package for Material eXplorer)* on [**Bridges-2**](https://www.psc.edu/resources/bridges-2/)
+  - Applied compiler tuning, better parallelization with OpenMP/MPI to enhance overall performance, achieving a **2200%** speedup over the baseline.
+- **Third Prize**, Compiler System Design Contest, Computer System Development Capability Competition 2024
+  - Built a compiler for a subset of the C language from scratch, using a custom framework inspired by LLVM/Clang
+  - Implemented key optimizations and generated code targeting the RISC-V architecture, improving execution efficiency
+- Scholarship of Outstanding Students, Sun Yat-Sen University
+- ÆON Scholarship, ÆON Company 
 
-1. [**YatCC-AI**](http://yatcc-ai.com) \| Full-Stack HPC+AI Education Platform
+## **Project:**
 
-- A **LLM**-powered, web-based experience, allowing users to instantly access the **Codespace** via a browser with no setup required.
-- Integrating **HPC** and generative AI to revolutionize compiler education.
-- Technologies: Redis, Flask, Docker, LLVM/Clang,  Kubernetes, LLM
+- [**YatCC-AI**](http://yatcc-ai.com) \| Full-Stack HPC+AI Education Platform
+  - A **LLM**-powered, web-based experience, allowing users to instantly access the **Codespace** via a browser with no setup required.
+  - Integrating **HPC** and generative AI to revolutionize compiler education.
+  - Technologies: Redis, Flask, Docker, LLVM/Clang,  Kubernetes, LLM
 
-1. **Machine learning-driven compilation optimization for ARM and RISC-V.**
-
-- Aim to develop a machine learning-driven method for compilation optimization on ARM and RISC-V architectures, targeting specific CPUs.
 
 ## **Experience:**
 
@@ -69,14 +77,19 @@ Haoquan is a dynamic and highly motivated Computer Science undergraduate student
   - Assisted in supplementing documentation for course lab project.
   - Collaborated with TA team members to troubleshoot and resolve technical issues.
 
-### **Publications:**
 
-- coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability
-  - Y. Gu, **H. Chen**, X. Chen, J. Du, Z. Chen, N. Xiao, X. Zhang, Y. Lu. *SC'2025* (CCF-A)
+## **Relevant Coursework:**
 
+- **YatCC**
+  - A modern experimental framework built on the open-source LLVM for compiler construction training and practices compiler construction training and practices
+- **YatCPU**
+  - An open source RISC-V processor, based on the Chisel hardware design language
 
-- CWL-Bubble: Extending CWL for Dynamic Scientific Workflows
-  - C. Chen, **H. Chen**, Y. Han, Y. Gu, X. Zhang. *ICCCS'2025*.
+## **Skills:**
+
+- Programming Languages: C&C++, Python
+- Tools: OpenMP, MPI, Docker, Flask, Redis, Kubernetes, LLVM/Clang
+
 
 ### **Miscellaneous:**
 
