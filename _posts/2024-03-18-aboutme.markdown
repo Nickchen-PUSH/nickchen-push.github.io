@@ -46,7 +46,7 @@ Haoquan is a highly motivated Computer Science undergraduate mentored by Dr. [Xi
 ## **Awards:**
 
 - **1st Place Online Winner**, ISC25 Student Cluster Competition
-  - Perform optimizations of *OpenMX(Open source package for Material eXplorer)* on [**Bridges-2**](https://www.psc.edu/resources/bridges-2/)
+  - Perform optimizations of [*OpenMX(Open source package for Material eXplorer)*](https://www.openmx-square.org/index.html) on [**Bridges-2**](https://www.psc.edu/resources/bridges-2/)
   - Applied compiler tuning, better parallelization with OpenMP/MPI to enhance overall performance, achieving a **2200%** speedup over the baseline.
 - **Third Prize**, Compiler System Design Contest, Computer System Development Capability Competition 2024
   - Built a compiler for a subset of the C language from scratch, using a custom framework inspired by LLVM/Clang
