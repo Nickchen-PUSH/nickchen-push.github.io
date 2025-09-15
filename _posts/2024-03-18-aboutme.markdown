@@ -41,6 +41,8 @@ Haoquan is a highly motivated Computer Science undergraduate mentored by Dr. [Xi
   - C. Chen, **H. Chen**, Y. Han, Y. Gu, X. Zhang. *ICCCS'2025*.
   - Introduced CWL-Bubble, an extension to the Common Workflow Language that supports dynamic task generation (loops, recursion) to improve adaptability and execution efficiency in complex scientific workflows while maintaining CWL compatibility.
   - Designed and executed experiments to evaluate CWL-Bubble on complex scientific workflows.
+
+
 ## **Awards:**
 
 - **1st Place Online Winner**, ISC25 Student Cluster Competition
