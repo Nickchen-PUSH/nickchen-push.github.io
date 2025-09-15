@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About me
-date: 2025-09-15 00:00:00 +0800
+date: 2025-09-15 13:00:00 +0800
 description: Haoquan Chen's resume # Add post description (optional)
 img: software.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
@@ -34,13 +34,13 @@ Haoquan is a highly motivated Computer Science undergraduate mentored by Dr. [Xi
 - **coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability**
   - Y. Gu, **H. Chen**, X. Chen, J. Du, Z. Chen, N. Xiao, X. Zhang, Y. Lu. *SC'2025* (CCF-A)
   - Introduced **coMtainer**, a compilation-assisted image transformation framework that embeds build-time information to enable system-specific specialization and improve performance portability across heterogeneous HPC environments.
-  - Designed and executed performance evaluation on ARM and x86 clusters, demonstrating **coMtainer**’s effectiveness in optimizing execution efficiency for real-world HPC applications.
+  - Designed and executed performance evaluation on ARM and x86 clusters, demonstrating **coMtainer**’s effectiveness in optimizing execution efficiency for HPC applications.
 
 
 - **CWL-Bubble: Extending CWL for Dynamic Scientific Workflows**
   - C. Chen, **H. Chen**, Y. Han, Y. Gu, X. Zhang. *ICCCS'2025*.
-  - Introduced CWL-Bubble, an extension to the Common Workflow Language that supports dynamic task generation (loops, recursion) to improve adaptability and execution efficiency in complex scientific workflows while maintaining CWL compatibility.
-  - Designed and executed experiments to evaluate CWL-Bubble on complex scientific workflows.
+  - Introduced **CWL-Bubble**, an extension to the *Common Workflow Language* that supports dynamic task generation (loops, recursion) to improve adaptability and execution efficiency in complex scientific workflows while maintaining CWL compatibility.
+  - Designed and executed experiments to evaluate **CWL-Bubble** on complex scientific workflows.
 
 
 ## **Awards:**
@@ -48,10 +48,13 @@ Haoquan is a highly motivated Computer Science undergraduate mentored by Dr. [Xi
 - **1st Place Online Winner**, ISC25 Student Cluster Competition
   - Perform optimizations of [*OpenMX(Open source package for Material eXplorer)*](https://www.openmx-square.org/index.html) on [**Bridges-2**](https://www.psc.edu/resources/bridges-2/)
   - Applied compiler tuning, better parallelization with OpenMP/MPI to enhance overall performance, achieving a **2200%** speedup over the baseline.
+
 - **Third Prize**, Compiler System Design Contest, Computer System Development Capability Competition 2024
   - Built a compiler for a subset of the C language from scratch, using a custom framework inspired by LLVM/Clang
   - Implemented key optimizations and generated code targeting the RISC-V architecture, improving execution efficiency
+
 - Scholarship of Outstanding Students, Sun Yat-Sen University
+
 - ÆON Scholarship, ÆON Company 
 
 ## **Project:**
