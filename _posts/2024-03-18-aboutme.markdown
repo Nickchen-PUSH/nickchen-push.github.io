@@ -32,13 +32,13 @@ Haoquan is a highly motivated Computer Science undergraduate mentored by Dr. [Xi
 ## **Publications:**
 
 - **coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability**
-  - Y. Gu, **H. Chen**, X. Chen, J. Du, Z. Chen, N. Xiao, X. Zhang, Y. Lu. *SC'2025* (CCF-A)
+  - Y. Gu, **H. Chen**, X. Chen, J. Du, Z. Chen, N. Xiao, X. Zhang, Y. Lu. (SC'2025)
   - Introduced **coMtainer**, a compilation-assisted image transformation framework that embeds build-time information to enable system-specific specialization and improve performance portability across heterogeneous HPC environments.
   - Designed and executed performance evaluation on ARM and x86 clusters, demonstrating **coMtainer**’s effectiveness in optimizing execution efficiency for HPC applications.
 
 
 - **CWL-Bubble: Extending CWL for Dynamic Scientific Workflows**
-  - C. Chen, **H. Chen**, Y. Han, Y. Gu, X. Zhang. *ICCCS'2025*.
+  - C. Chen, **H. Chen**, Y. Han, Y. Gu, X. Zhang. (ICCCS'2025)
   - Introduced **CWL-Bubble**, an extension to the *Common Workflow Language* that supports dynamic task generation (loops, recursion) to improve adaptability and execution efficiency in complex scientific workflows while maintaining CWL compatibility.
   - Designed and executed experiments to evaluate **CWL-Bubble** on complex scientific workflows.
 
