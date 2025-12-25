@@ -3,7 +3,7 @@ layout: post
 
 title: My misunderstanding about SME
 
-date: 2025-12-25 16:00:00 +0800
+date: 2025-12-25 12:00:00 +0800
 
 description: My misunderstanding about SME ZA register
 
