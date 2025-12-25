@@ -7,7 +7,7 @@ date: 2025-12-25 12:00:00 +0800
 
 description: My misunderstanding about SME ZA register
 
-img: xmax25.png
+img: xmas25.png
 
 fig-caption: # Add figcaption (optional)
 
