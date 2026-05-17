@@ -13,7 +13,6 @@ tags: [blog,Trip Report,StLouis,SC25]
 
 This report provides an overview of my experience attending SC25 in St. Louis, USA.
 
-
 ## **Conference Experience**
 
 The SC conference is the premier international venue for high-performance computing (HPC), networking, storage, and data analysis. It brings together researchers, practitioners, and industry leaders to present the latest breakthroughs and innovations. The program includes technical sessions, workshops, tutorials, panel discussions, and a large exhibition showcasing cutting-edge technologies and products from top organizations across the HPC ecosystem.
@@ -35,12 +34,12 @@ The SC25 keynote was delivered by Thomas Koulopoulos, a futurist and author know
   	</div>
 </center> -->
 
-<!-- ![Keynote](../assets/photos/SC25/70ED22FF-0C45-4768-B690-854AD4DDD6D3_1_105_c.jpeg) -->
+<!-- ![Keynote](/assets/photos/SC25/70ED22FF-0C45-4768-B690-854AD4DDD6D3_1_105_c.jpeg) -->
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/70ED22FF-0C45-4768-B690-854AD4DDD6D3_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/70ED22FF-0C45-4768-B690-854AD4DDD6D3_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -56,12 +55,12 @@ Before the keynote, Ms. Lori Diachin, the SC25 Chair, provided an overview of th
 
 The SC conference is widely recognized for its strong technical program, offering a rich collection of paper presentations, workshops, tutorials, and panel discussions. As an enthusiastic learner, I attended several sessions that aligned closely with my research interests.
 
-<!-- ![Me at SC25.jpeg](../assets/photos/SC25/me-at-sc25.jpeg) -->
+<!-- ![Me at SC25.jpeg](/assets/photos/SC25/me-at-sc25.jpeg) -->
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/me-at-sc25.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/me-at-sc25.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -97,7 +96,6 @@ As a rapidly evolving field, AI has a profound impact on HPC. I came acrossed mu
 - Some research efforts focus on using HPC systems to train large-scale reasoning models. Understanding the challenges and workload characteristics of training such models can inform the design of future AI-optimized supercomputers, and can publish a paper in SC conference.
 - Using simulation data to augment real-world data for training AI models is a promising approach. This technique can help overcome the limitations of real-world data, such as scarcity or bias, and improve the performance and generalization of AI models.
 
-
 ## **Student@SC Program**
 
 As a participant of the Student@SC program, I had the opportunity to engage in various activities designed to enhance my conference experience and professional development.
@@ -114,12 +112,12 @@ During the workshop, I'm fortunate to have met with several peers who are also p
 
 One thing I learned from my new friends is the importance of visibility and networking in the community. Many of them have complete detailed LinkedIn profiles, personal websites, and GitHub repositories showcasing their projects and contributions. These online platforms serve as a portfolio for potential employers and collaborators to explore their work, and help them stand out in a competitive job market. Selling one's work is as important as doing the work itself. Visibility is key to success in the field.
 
-<!-- ![My new friends](../assets/photos/SC25/1F261024-7C2F-4487-9620-325CCD6D5704_1_105_c.jpeg) -->
+<!-- ![My new friends](/assets/photos/SC25/1F261024-7C2F-4487-9620-325CCD6D5704_1_105_c.jpeg) -->
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/1F261024-7C2F-4487-9620-325CCD6D5704_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/1F261024-7C2F-4487-9620-325CCD6D5704_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -129,17 +127,16 @@ One thing I learned from my new friends is the importance of visibility and netw
   	</div>
 </center>
 
-
 ### **Mentor and Protégé Program**
 
 Mentor and Protégé Program is another exciting opportunity that supports the growth of a vibrant HPC community by connecting students with experienced mentors. During the program, I was paired with Mr. Trey White, a distinguished research scientist at Oak Ridge National Laboratory. He has a very interesting career path, starting as a computational scientist, then transitioning to a software engineer in DreamWorks Animation, and finally returning to HPC as a research scientist. His diverse experiences have given him a unique perspective on the field. He shared with me his insights on career development and his thoughts on the current situation. He also provided valuable advice on navigating the SC conference and making the most of the opportunities available. I truly appreciate his opinions and guidance from different points of view.
 
-<!-- ![My SC25 Mentor Mr. Trey White](../assets/photos/SC25/615157E6-46B0-4618-94C5-F4DEA8527C5A_1_105_c.jpeg) -->
+<!-- ![My SC25 Mentor Mr. Trey White](/assets/photos/SC25/615157E6-46B0-4618-94C5-F4DEA8527C5A_1_105_c.jpeg) -->
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/615157E6-46B0-4618-94C5-F4DEA8527C5A_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/615157E6-46B0-4618-94C5-F4DEA8527C5A_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -149,18 +146,16 @@ Mentor and Protégé Program is another exciting opportunity that supports the g
   	</div>
 </center>
 
-
-
 ## **Journey to the West**
 
 The moment I stepped off the San Francisco airport, a cold, sharp autumn wind beat me, as it struck the bell of my grand adventure ahead. A land once admired as the land of opportunities, a land of dreams but also a land of questions and doubts, mist of uncertainties. Ahead, what awaits me? This journey shall unfold the answers.
 
-<!-- ![Arriving in United States.jpeg](../assets/photos/SC25/A941872F-B11D-40FD-884D-F8F50B3C1B36_1_105_c.jpeg) -->
+<!-- ![Arriving in United States.jpeg](/assets/photos/SC25/A941872F-B11D-40FD-884D-F8F50B3C1B36_1_105_c.jpeg) -->
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/A941872F-B11D-40FD-884D-F8F50B3C1B36_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/A941872F-B11D-40FD-884D-F8F50B3C1B36_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -176,12 +171,12 @@ St. Louis, founded in 1764 by French fur traders, is known as the “Gateway to 
 
 Yet the St. Louis I encountered was a city of contrasts. The gleaming Arch rises proudly over the west bank of the Mississippi River, while its shadow falls upon neighborhoods still grappling with the challenges of economic decline, population loss, and complex social issues. Walking through parts of the downtown area, I found the streets quiet and subdued, the air tinged with the scent of burning grass, as if carrying traces of long-forgotten stories.
 
-<!-- ![The Arch](../assets/photos/SC25/9BEF59FD-A52C-448E-8F78-AF03168511B0_1_105_c.jpeg) -->
+<!-- ![The Arch](/assets/photos/SC25/9BEF59FD-A52C-448E-8F78-AF03168511B0_1_105_c.jpeg) -->
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/9BEF59FD-A52C-448E-8F78-AF03168511B0_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/9BEF59FD-A52C-448E-8F78-AF03168511B0_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -191,13 +186,12 @@ Yet the St. Louis I encountered was a city of contrasts. The gleaming Arch rises
   	</div>
 </center>
 
-
-<!-- ![Washington Avenue](../assets/photos/SC25/D6A22693-6DD0-4135-8336-B4A9089A24C5_1_105_c.jpeg) -->
+<!-- ![Washington Avenue](/assets/photos/SC25/D6A22693-6DD0-4135-8336-B4A9089A24C5_1_105_c.jpeg) -->
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/D6A22693-6DD0-4135-8336-B4A9089A24C5_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/D6A22693-6DD0-4135-8336-B4A9089A24C5_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -209,13 +203,12 @@ Yet the St. Louis I encountered was a city of contrasts. The gleaming Arch rises
 
 Washington Avenue
 
-
 On clear days, visitors can ride the tram to the top of the Arch, where sweeping views of the city and the Mississippi unfold beneath the sky. Across the river lies East St. Louis, and from above, the sharp contrast between the two sides becomes even more evident.
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/D0823D98-720F-4A25-8101-4FFD81B3F793_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/D0823D98-720F-4A25-8101-4FFD81B3F793_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -228,7 +221,7 @@ On clear days, visitors can ride the tram to the top of the Arch, where sweeping
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/866F1736-13CE-4820-89EC-E6FC7F808F50_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/866F1736-13CE-4820-89EC-E6FC7F808F50_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -238,13 +231,12 @@ On clear days, visitors can ride the tram to the top of the Arch, where sweeping
     </div>
 </center>
 
-
 Because of late travel arrangements, I stayed in an Airbnb in the Gate District, about a 20-minute drive from the convention center. Despite initial worries, the neighborhood turned out to be warm and charming. Autumn leaves, small parks, and friendly local life offered a very different and comforting side of St. Louis.
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/65E82F5D-2B99-4630-901B-8652465D52A6_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/65E82F5D-2B99-4630-901B-8652465D52A6_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -257,7 +249,7 @@ Because of late travel arrangements, I stayed in an Airbnb in the Gate District,
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/FCCE9CCA-D190-4E24-9971-D1AF66B27984_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/FCCE9CCA-D190-4E24-9971-D1AF66B27984_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -269,13 +261,12 @@ Because of late travel arrangements, I stayed in an Airbnb in the Gate District,
 
 ### **San Francisco**
 
-
 My flights to and from St. Louis both had stopovers in San Francisco. Although I stayed only a few hours each time, I still caught brief glimpses of the city’s vibrant character. California’s natural beauty—its blue skies, hills, and coastline—left a strong impression on me.
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/B7D6A7BF-534D-4DD9-871E-4760B94F450E_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/B7D6A7BF-534D-4DD9-871E-4760B94F450E_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -288,7 +279,7 @@ My flights to and from St. Louis both had stopovers in San Francisco. Although I
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="../assets/photos/SC25/2060A9D9-464C-4F2F-9B53-2DDBBEDDF9C3_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/photos/SC25/2060A9D9-464C-4F2F-9B53-2DDBBEDDF9C3_1_105_c.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;

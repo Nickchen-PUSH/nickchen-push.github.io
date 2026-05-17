@@ -1,31 +1,26 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+# Haoquan Chen Personal Site
 
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
+Source for Haoquan Chen's portfolio-style personal homepage and writing archive.
 
-## Demo
+## Local Preview
 
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+```sh
+jekyll build
+cd _site
+python3 -m http.server 4173
+```
 
-The main page would look like this:
+Then open `http://127.0.0.1:4173/`.
 
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
+## Structure
 
-The post page would look like this:
+- `index.html`: main CV-style homepage.
+- `_posts/`: writing entries used by the homepage modal and standalone post pages.
+- `_layouts/post.html`: standalone article layout using the same visual language as the homepage.
+- `assets/css/cv-home.css`: shared homepage, modal, tag, and post styles.
+- `assets/js/cv-home.js`: homepage motion and writing modal behavior.
+- `assets/files/Resume-Haoquan_Chen-202605.pdf`: downloadable resume.
 
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+## Build
 
-## Features
-
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Support Emoji
-
-## Installation:
-
-Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
-
-## License
-
-GNU General Public License v3.0
+This site is built with Jekyll through the GitHub Pages gem.

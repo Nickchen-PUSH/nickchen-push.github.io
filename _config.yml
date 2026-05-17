@@ -1,9 +1,9 @@
-title: 陈淏泉｜Haoquan Chen's Site
+title: Haoquan Chen | 陈淏泉
 description: > # this means to ignore newlines until "baseurl:"
-  Haoquan is a undergraduate student at Sun Yat-Sen University.
+  Haoquan Chen is a Computer Science undergraduate working on HPC systems, containers, compilers, and scientific computing.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "chen-hq.site" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chen-hq.site" # the base hostname & protocol for your site, e.g. http://example.com
 # site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
@@ -14,7 +14,7 @@ about-author: I'm a CS student at <br> Sun Yat-Sen University. <br>  Always hung
 # social-facebook: # add your Facebook handle
 social-github: Nickchen-PUSH # add your Github handle
 # social-linkedin: # add your Linkedin handle
-social-email: nickchen_chqchq@icloud.com # add your Email address
+social-email: chenhq79@mail2.sysu.edu.cn # add your Email address
 
 # Disqus
 # discus-identifier: mr-brown # add your discus identifier
@@ -27,10 +27,6 @@ markdown: kramdown
 
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
   - jemoji
 
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude: ["node_modules", "package-lock.json", "yarn.lock"]

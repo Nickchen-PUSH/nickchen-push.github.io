@@ -1,19 +1,325 @@
 ---
-layout: main
+layout: default
+title: Haoquan Chen
+description: Haoquan Chen is a Computer Science undergraduate working on HPC systems, containers, compilers, and large-scale scientific computing.
+body_class: cv-home-page
+extra_css:
+  - /assets/css/cv-home.css
+extra_js:
+  - /assets/js/cv-home.js
 ---
-{% for post in paginator.posts %}
-<article class="post">
-  {% if post.img %}
-  <a class="post-thumbnail" style="background-image: url({{ "/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-  {% else %}
-  {% endif %}
-  <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
-  </div>
-</article>
-{% endfor %}
 
-{% include pagination.html %}
+<main class="cv-site">
+  <nav class="cv-nav" aria-label="Primary navigation">
+    <a class="cv-nav__brand" href="{{ '/' | relative_url }}">Haoquan Chen</a>
+    <a href="#experience">Experience</a>
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#writing">Writing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="cv-hero" id="top">
+    <img class="cv-hero__image" data-parallax src="{{ '/assets/photos/SC25/2060A9D9-464C-4F2F-9B53-2DDBBEDDF9C3_1_105_c.jpeg' | relative_url }}" alt="Golden Gate Bridge">
+    <div class="cv-hero__inner">
+      <div class="cv-hero__copy reveal">
+        <span class="cv-kicker">A young HPC + AI infra enthusiast</span>
+        <h1>Haoquan Chen<br>陈淏泉</h1>
+        <p>
+          I build the infrastructure layer between ambitious workloads and the
+          heterogeneous machines that run them.
+        </p>
+        <div class="cv-actions">
+          <a class="cv-button cv-button--dark" href="#experience">Experience</a>
+          <a class="cv-button cv-button--glass" href="#contact">Contact</a>
+          <a class="cv-button" href="{{ '/assets/files/Resume-Haoquan_Chen-202605.pdf' | relative_url }}">Resume</a>
+        </div>
+      </div>
+
+      <aside class="cv-identity reveal" aria-label="Haoquan Chen profile summary">
+        <img src="{{ '/assets/img/prof_chen.jpeg' | relative_url }}" alt="Haoquan Chen portrait">
+        <div class="cv-identity__stats">
+          <div class="cv-identity__profile">
+            <b>UGrad Student</b>
+            <span>Computer Science</span>
+          </div>
+          <div class="cv-identity__metrics">
+            <div><b>3.9</b><span>GPA / 4.0 at SYSU</span></div>
+            <div><b>2027</b><span>Expected graduation</span></div>
+          </div>
+        </div>
+        <!-- <div class="cv-identity__honor">
+          <b>World Champion 🏆</b>
+          <span>ISC25 Student Cluster Competition</span>
+        </div> -->
+      </aside>
+    </div>
+  </section>
+
+  <section class="cv-proof cv-proof--interests" aria-label="Research interests">
+    <div class="cv-proof__heading reveal">
+      <p class="cv-kicker">Research Interests</p>
+      <h2>Where I want to push the limits</h2>
+      <p class="cv-proof__copy">
+        The questions I keep coming back to when hardware, compilers, and distributed systems meet.
+      </p>
+    </div>
+    <div class="cv-proof__grid">
+      <div class="cv-proof__card reveal"><b>HPC Systems</b><span>System software, scheduling, and runtime support for large-scale scientific computing.</span></div>
+      <div class="cv-proof__card reveal"><b>GPU Architecture</b><span>Multi-GPU execution, accelerator memory systems, and architecture-aware performance.</span></div>
+      <div class="cv-proof__card reveal"><b>Distributed AI Infra</b><span>Training, serving, scheduling, and resource management for AI clusters.</span></div>
+      <div class="cv-proof__card reveal"><b>Performance Portability</b><span>Compiler and container layers that adapt applications across heterogeneous platforms.</span></div>
+    </div>
+  </section>
+
+  <section class="cv-section cv-section--experience" id="experience">
+    <div class="reveal">
+      <p class="cv-kicker">Experience</p>
+      <h2>How I learned systems from real SUPERCOMPUTERS</h2>
+      <p class="cv-section__copy">
+        Labs taught me abstractions; supercomputers taught me constraints;
+        competitions taught me to measure.
+      </p>
+    </div>
+
+    <div class="cv-list cv-list--wide">
+      <article class="cv-item reveal">
+        <div class="cv-org">
+          <div class="cv-org__logo cv-org__logo--sysu">
+            <img src="{{ '/assets/img/logos/sysu-arx.png' | relative_url }}" alt="arcSYSu and Sun Yat-sen University">
+          </div>
+          <time>Dec 2023 - Present</time>
+        </div>
+        <div>
+          <h3>arcSYSu Lab, Sun Yat-sen University</h3>
+          <p>
+            Worked around HPC containers, compiler-assisted deployment, and
+            distributed system support for heterogeneous clusters. The experience
+            shaped my understanding of container runtimes, compiler toolchains,
+            reproducible evaluation, and production systems on Tianhe-Xingyi supercomputer.
+          </p>
+          <div class="cv-tags"><span>HPC Containers</span><span>Distributed Systems</span><span>Docker/K8s</span></div>
+        </div>
+      </article>
+
+      <article class="cv-item reveal">
+        <div class="cv-org">
+          <div class="cv-org__logo cv-org__logo--supercomputing">
+            <img src="{{ '/assets/img/logos/sysu-supercomputing-horizon.png' | relative_url }}?v=2" alt="SYSU Supercomputing">
+          </div>
+          <time>Jun 2024 - Present</time>
+        </div>
+        <div>
+          <h3>SYSU Supercomputing Team</h3>
+          <p>
+            The team gave me full-stack HPC training from the ground up, from
+            hardware setup and cluster configuration to operator development,
+            GPU tuning, application optimization, and performance profiling,
+            with hands-on experience on self-built clusters and Bridges-2 supercomputer.
+          </p>
+          <div class="cv-tags"><span>Parallel Programming</span><span>GPU</span><span>Kernel Optimization</span><span>Performance Profiling</span></div>
+        </div>
+      </article>
+
+      <article class="cv-item reveal">
+        <div class="cv-org">
+          <div class="cv-org__logo cv-org__logo--tsinghua">
+            <img src="{{ '/assets/img/logos/tsinghua-air.png' | relative_url }}" alt="AIR, Tsinghua University">
+          </div>
+          <time>Jan 2026 - Apr 2026</time>
+        </div>
+        <div>
+          <h3>AIR, Tsinghua University</h3>
+          <p>
+            Worked around large-scale AI for Science applications and the system
+            infrastructure behind real parallel workloads. The experience helped
+            me connect AI frameworks, MPI-style execution, scientific simulation,
+            and deployment constraints across Tianhe-3, Sunway, and Tecorigin.
+          </p>
+          <div class="cv-tags"><span>AI4S</span><span>Large-scale Simulation</span></div>
+        </div>
+      </article>
+
+      
+    </div>
+  </section>
+
+  <section class="cv-section cv-section--research" id="research">
+    <div class="reveal">
+      <p class="cv-kicker">Research</p>
+      <h2>What came out of the experiments</h2>
+      <p class="cv-section__copy">
+        Artifacts from turning systems ideas into papers, prototypes, and evaluations
+        that have to survive real machines.
+      </p>
+    </div>
+
+    <div class="cv-publications">
+      <article class="cv-publication cv-publication--feature reveal">
+        <div>
+          <span class="cv-label">SC'25 · CCF-A</span>
+          <h3>coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability</h3>
+          <p>
+            Built the container transformation and evaluation workflow for heterogeneous HPC clusters,
+            preserving near-native execution while improving deployment adaptability.
+          </p>
+        </div>
+        <figure class="cv-publication__figure">
+          <img src="{{ '/assets/img/research/comtainer-process-models.png' | relative_url }}" alt="coMtainer build graph and image model">
+        </figure>
+      </article>
+
+      <article class="cv-publication reveal">
+        <span class="cv-label">Submitting to SC'26</span>
+        <h3>HorizonAKMC for Large-scale Atomistic Simulation</h3>
+        <p>
+          Working on distributed reinforcement-learning infrastructure for Kinetic Monte Carlo simulation across national supercomputing platforms.
+        </p>
+      </article>
+
+      <article class="cv-publication reveal">
+        <span class="cv-label">ICCCS'25</span>
+        <h3>CWL-Bubble: Extending CWL for Dynamic Scientific Workflows</h3>
+        <p>
+          Co-authored a workflow-language extension for loops and recursive task generation in complex scientific workflows.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="cv-section cv-section--projects" id="projects">
+    <div class="reveal">
+      <p class="cv-kicker">Projects</p>
+      <h2>Things I built along the way</h2>
+      <p class="cv-section__copy">
+        Small enough to ship, technical enough to teach me something about
+        performance, platforms, or play.
+      </p>
+    </div>
+
+    <div class="cv-projects">
+      <article class="cv-project reveal">
+        <span class="cv-label">OpenMX · Performance optimization</span>
+        <h3>Performance Optimization of OpenMX</h3>
+        <p>
+          Optimized the nanomaterials simulation package on Bridges-2 using profiling, kernel refactoring,
+          and hybrid MPI + OpenMP parallelization. Achieved 2.2x end-to-end performance improvement.
+        </p>
+        <div class="cv-tags"><span>C/C++</span><span>Fortran</span><span>MPI+OpenMP</span><span>VTune</span><span>uProf</span><span>ScaLAPACK/ELPA</span></div>
+      </article>
+
+      <a class="cv-project cv-project--yatcc reveal" href="https://yatcc-ai.com/" target="_blank" rel="noreferrer">
+        <span class="cv-label">YatCC-OL · HPC code-servers</span>
+        <h3>Lightweight HPC Development Platform</h3>
+        <p>
+          Built an online development platform above the Tianhe-Xingyi supercomputer for the YatCC-AI course,
+          with Flask backend services and Kubernetes integration for standard cloud clusters.
+        </p>
+        <div class="cv-tags"><span>Flask</span><span>Kubernetes</span><span>Redis</span><span>Docker</span></div>
+      </a>
+
+      <a class="cv-project cv-project--game reveal" href="http://chen-hq.site/SpaceWar/" target="_blank" rel="noreferrer">
+        <span class="cv-label">WebGL · Space fighter game</span>
+        <h3>PlanetWar: Maverick</h3>
+        <p>
+          Press to play
+        </p>
+        <div class="cv-tags"><span>WebGL</span><span>JavaScript</span><span>Game</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="cv-section cv-section--awards" id="awards">
+    <div class="reveal">
+      <p class="cv-kicker">Awards</p>
+      <h2>A few milestones from the journey</h2>
+    </div>
+
+    <div class="cv-awards">
+      <div class="cv-award cv-award--feature reveal"><b>World Champion</b><span>ISC25 Student Cluster Competition</span><small>June 2025</small></div>
+      <div class="cv-award reveal"><b>Top Prize</b><span>Tencent Scholarship, 1 / 424</span><small>Nov 2025</small></div>
+      <div class="cv-award reveal"><b>Third Prize</b><span>Compiler Design Competition 2024</span><small>Aug 2024</small></div>
+      <div class="cv-award reveal"><b>Outstanding Students</b><span>Scholarship, Sun Yat-sen University</span><small>2023-2025</small></div>
+    </div>
+  </section>
+
+  <section class="cv-section cv-section--skills" id="skills">
+    <div class="reveal">
+      <p class="cv-kicker">Technical Skills</p>
+      <h2>Tools I reach for when things get REAL</h2>
+    </div>
+
+    <div class="cv-skills">
+      <div class="cv-skill reveal"><b>Programming</b><span>Python, C/C++, Shell scripting</span></div>
+      <div class="cv-skill reveal"><b>Parallel Computing</b><span>MPI, OpenMP, SIMD</span></div>
+      <div class="cv-skill reveal"><b>Performance Tools</b><span>Nsight, VTune, uProf, Perf</span></div>
+      <div class="cv-skill reveal"><b>HPC & Cloud</b><span>Docker, Kubernetes, Slurm</span></div>
+      <div class="cv-skill reveal"><b>AI Infrastructure</b><span>PyTorch, NCCL, distributed training systems</span></div>
+    </div>
+  </section>
+
+  <section class="cv-section cv-section--writing" id="writing">
+    <div class="reveal">
+      <p class="cv-kicker">Writing</p>
+      <h2>What I noticed while building and traveling</h2>
+    </div>
+
+    <div class="cv-writing">
+      {% assign visible_count = 0 %}
+      {% for post in site.posts %}
+        {% assign skip_post = false %}
+        {% if post.tags contains 'ignoreme' or post.tags contains 'aboutme' %}
+          {% assign skip_post = true %}
+        {% endif %}
+        {% if post.url contains 'oci-image-spec' %}
+          {% assign skip_post = true %}
+        {% endif %}
+        {% unless skip_post %}
+          {% assign post_modal_id = 'cv-post-modal-' | append: visible_count %}
+          <a class="cv-post{% if post.img %} cv-post--has-cover{% endif %} reveal" href="{{ post.url | relative_url }}" data-post-modal="{{ post_modal_id }}"{% if post.img %} style="--post-cover: url('{{ '/assets/img/' | append: post.img | relative_url }}');"{% endif %}>
+            <div>
+              <time>{{ post.date | date: '%Y, %b %d' }}</time>
+              <h3>{{ post.title }}</h3>
+              <p>{{ post.description | default: post.content | strip_html | truncatewords: 18 }}</p>
+            </div>
+          </a>
+          <template id="{{ post_modal_id }}">
+            <article class="cv-post-article">
+              <header class="cv-post-article__header">
+                <time>{{ post.date | date: '%Y, %b %d' }}</time>
+                <h2>{{ post.title }}</h2>
+                {% if post.description %}
+                  <p>{{ post.description }}</p>
+                {% endif %}
+              </header>
+              {% if post.img %}
+                <figure class="cv-post-article__cover">
+                  <img src="{{ '/assets/img/' | append: post.img | relative_url }}" alt="{{ post.title }}">
+                </figure>
+              {% endif %}
+              <div class="cv-post-article__content">
+                {{ post.content }}
+              </div>
+            </article>
+          </template>
+          {% assign visible_count = visible_count | plus: 1 %}
+          {% if visible_count == 4 %}
+            {% break %}
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <footer class="cv-footer" id="contact">
+    <div>
+      <p class="cv-kicker">Contact</p>
+      <h2>Seeking research conversations in HPC + AI systems</h2>
+    </div>
+    <div class="cv-footer__links">
+      <a href="mailto:chenhq79@mail2.sysu.edu.cn">chenhq79@mail2.sysu.edu.cn</a>
+      <a href="https://github.com/Nickchen-PUSH" rel="noopener">GitHub</a>
+      <a href="{{ '/assets/files/Resume-Haoquan_Chen-202605.pdf' | relative_url }}">PDF Resume</a>
+    </div>
+  </footer>
+</main>
