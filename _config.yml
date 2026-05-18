@@ -29,4 +29,4 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-exclude: ["node_modules", "package-lock.json", "yarn.lock"]
+exclude: ["node_modules", "package-lock.json", "vendor", "yarn.lock"]
