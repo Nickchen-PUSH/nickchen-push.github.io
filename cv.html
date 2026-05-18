@@ -1,0 +1,214 @@
+---
+layout: default
+title: Haoquan Chen CV
+description: A three-page HTML CV for Haoquan Chen.
+body_class: cv-document-page
+permalink: /cv/
+extra_css:
+  - /assets/css/cv-document.css
+---
+
+<main class="cv-doc">
+  <nav class="cv-doc-toolbar" aria-label="CV actions">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/assets/files/Resume-Haoquan_Chen-202605.pdf' | relative_url }}">PDF Resume</a>
+    <button type="button" onclick="window.print()">Print</button>
+  </nav>
+
+  <article class="cv-paper cv-paper--cover">
+    <header class="cv-doc-hero">
+      <div>
+        <p class="cv-doc-kicker">A young HPC + AI infra enthusiast</p>
+        <h1>Haoquan Chen<br><span>陈淏泉</span></h1>
+        <p class="cv-doc-lede">
+          I build the infrastructure layer between ambitious workloads and the
+          heterogeneous machines that run them.
+        </p>
+      </div>
+      <aside class="cv-doc-identity" aria-label="Haoquan Chen profile summary">
+        <img src="{{ '/assets/img/prof_chen.jpeg' | relative_url }}" alt="Haoquan Chen portrait">
+        <div class="cv-doc-identity__stats">
+          <div class="cv-doc-identity__profile">
+            <b>UGrad Student</b>
+            <span>Computer Science &amp; Engineering</span>
+          </div>
+          <div class="cv-doc-identity__metrics">
+            <div><b>3.9</b><span>GPA / 4.0 at SYSU</span></div>
+            <div><b>2027</b><span>Expected graduation</span></div>
+          </div>
+        </div>
+      </aside>
+    </header>
+
+    <section class="cv-doc-cover-grid">
+      <div class="cv-doc-card cv-doc-card--interests">
+        <h2>Research Interests</h2>
+        <div class="cv-doc-interest-grid">
+          <div><b>HPC Systems</b><span>System software, scheduling, and runtime support for large-scale scientific computing.</span></div>
+          <div><b>GPU Architecture</b><span>Multi-GPU execution, accelerator memory systems, and architecture-aware performance.</span></div>
+          <div><b>Distributed AI Infra</b><span>Training, serving, scheduling, and resource management for AI clusters.</span></div>
+          <div><b>Performance Portability</b><span>Compiler and container layers that adapt applications across heterogeneous platforms.</span></div>
+        </div>
+      </div>
+
+      <div class="cv-doc-cover-side">
+        <div class="cv-doc-card">
+          <h2>Contact</h2>
+          <ul class="cv-doc-list cv-doc-list--compact">
+            <li><b>Email</b><span>chenhq79@mail2.sysu.edu.cn</span></li>
+            <li><b>GitHub</b><span>github.com/Nickchen-PUSH</span></li>
+            <li><b>Website</b><span>chen-hq.site</span></li>
+          </ul>
+        </div>
+        <div class="cv-doc-card cv-doc-card--education">
+          <h2>Education</h2>
+          <div class="cv-doc-entry">
+            <div>
+              <h3>Sun Yat-sen University</h3>
+              <p>B.S. in Computer Science and Technology, School of Computer Science and Engineering.</p>
+            </div>
+            <time>2023 - 2027</time>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-doc-cover-signals" aria-label="Selected CV signals">
+        <div>
+          <span>Competition</span>
+          <b>World Champion</b>
+          <small>ISC25 Student Cluster Competition</small>
+        </div>
+        <div>
+          <span>Research</span>
+          <b>SC'25 · CCF-A</b>
+          <small>coMtainer, compilation-assisted HPC containers</small>
+        </div>
+        <div>
+          <span>Systems work</span>
+          <b>Real machines</b>
+          <small>Lineshine, Tianhe, Sunway, Bridges-2 ...</small>
+        </div>
+      </div>
+    </section>
+  </article>
+
+  <article class="cv-paper cv-paper--systems">
+    <header class="cv-doc-section">
+      <p class="cv-doc-kicker">Experience</p>
+      <h2>How I learned systems from real supercomputers</h2>
+      <p>Labs taught me abstractions; supercomputers taught me constraints; competitions taught me to measure.</p>
+    </header>
+
+    <section class="cv-doc-timeline">
+      <div class="cv-doc-role">
+        <div class="cv-doc-logo cv-doc-logo--sysu">
+          <img src="{{ '/assets/img/logos/sysu-arx.png' | relative_url }}" alt="arcSYSu logo">
+        </div>
+        <div>
+          <time>Dec 2023 - Present</time>
+          <h3>arcSYSu Lab, Sun Yat-sen University</h3>
+          <p>
+            Worked around HPC containers, compiler-assisted deployment, and distributed system support
+            for heterogeneous clusters. Built practical experience with container runtimes,
+            compiler toolchains, reproducible evaluation, and production systems on Tianhe-Xingyi.
+          </p>
+          <div class="cv-doc-tags"><span>HPC Containers</span><span>Docker</span><span>Kubernetes</span><span>GCC/LLVM</span></div>
+        </div>
+      </div>
+
+      <div class="cv-doc-role">
+        <div class="cv-doc-logo cv-doc-logo--team">
+          <img src="{{ '/assets/img/logos/sysu-supercomputing-horizon.png' | relative_url }}?v=2" alt="SYSU Supercomputing logo">
+        </div>
+        <div>
+          <time>Jun 2024 - Present</time>
+          <h3>SYSU Supercomputing Team</h3>
+          <p>
+            Full-stack HPC training from the ground up: hardware setup, cluster configuration,
+            operator development, GPU tuning, application optimization, and performance profiling,
+            with hands-on experience on self-built clusters and Bridges-2.
+          </p>
+          <div class="cv-doc-tags"><span>Parallel Programming</span><span>GPU</span><span>Profiling</span><span>Bridges-2</span></div>
+        </div>
+      </div>
+
+      <div class="cv-doc-role">
+        <div class="cv-doc-logo cv-doc-logo--air">
+          <img src="{{ '/assets/img/logos/tsinghua-air.png' | relative_url }}" alt="AIR Tsinghua logo">
+        </div>
+        <div>
+          <time>Jan 2026 - Apr 2026</time>
+          <h3>AIR, Tsinghua University</h3>
+          <p>
+            Worked around large-scale AI for Science applications and the system infrastructure behind
+            real parallel workloads, connecting AI frameworks, MPI-style execution, scientific simulation,
+            and deployment constraints across Tianhe-3, Sunway, and Tecorigin.
+          </p>
+          <div class="cv-doc-tags"><span>AI4S</span><span>PyTorch</span><span>MPI</span><span>Simulation</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cv-doc-card cv-doc-card--skills cv-doc-card--skills-compact cv-doc-gap-top">
+      <h2>Technical Stack</h2>
+      <div class="cv-doc-skill-grid">
+        <div><b>Programming</b><span>Python, C/C++, Shell</span></div>
+        <div><b>Parallel Computing</b><span>MPI, OpenMP, SIMD</span></div>
+        <div><b>Performance</b><span>Nsight, VTune, uProf, Perf</span></div>
+        <div><b>HPC & Cloud</b><span>Docker, Kubernetes, Slurm</span></div>
+        <div><b>AI Infra</b><span>PyTorch, NCCL, distributed training</span></div>
+      </div>
+    </section>
+  </article>
+
+  <article class="cv-paper cv-paper--output">
+    <header class="cv-doc-section">
+      <p class="cv-doc-kicker">Research, Projects, Awards</p>
+      <h2>What came out of the experiments</h2>
+      <p>Artifacts from turning systems ideas into papers, prototypes, and evaluations that survive real machines.</p>
+    </header>
+
+    <section class="cv-doc-grid cv-doc-grid--research">
+      <div class="cv-doc-card cv-doc-card--feature">
+        <span class="cv-doc-label">SC'25 · CCF-A</span>
+        <h3>coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability</h3>
+        <p>
+          Built the transformation and evaluation workflow for heterogeneous HPC container images,
+          preserving near-native execution while improving deployment adaptability.
+        </p>
+        <img src="{{ '/assets/img/research/comtainer-process-models.png' | relative_url }}" alt="coMtainer framework">
+      </div>
+      <div class="cv-doc-card">
+        <span class="cv-doc-label">Submitting to SC'26</span>
+        <h3>HorizonAKMC for Large-scale Atomistic Simulation</h3>
+        <p>Distributed reinforcement-learning infrastructure for Kinetic Monte Carlo simulation on national platforms.</p>
+      </div>
+      <div class="cv-doc-card">
+        <span class="cv-doc-label">ICCCS'25</span>
+        <h3>CWL-Bubble: Extending CWL for Dynamic Scientific Workflows</h3>
+        <p>Workflow-language extension for loops and recursive task generation in complex scientific workflows.</p>
+      </div>
+    </section>
+
+    <section class="cv-doc-grid cv-doc-grid--two cv-doc-gap-top">
+      <div class="cv-doc-card">
+        <h2>Selected Projects</h2>
+        <ul class="cv-doc-list">
+          <li><b>OpenMX Optimization</b><span>Kernel refactoring, hybrid MPI + OpenMP, profiling on Bridges-2; 2.2x end-to-end speedup.</span></li>
+          <li><b>YatCC-OL</b><span>Browser-based HPC development platform with Flask, Redis, Docker, and Kubernetes.</span></li>
+          <li><b>PlanetWar: Maverick</b><span>WebGL space fighter game.</span></li>
+        </ul>
+      </div>
+      <div class="cv-doc-card">
+        <h2>Awards</h2>
+        <ul class="cv-doc-list">
+          <li><b>World Champion</b><span>ISC25 Student Cluster Competition, June 2025.</span></li>
+          <li><b>Top Prize</b><span>Tencent Scholarship, ranked 1 / 424, Nov 2025.</span></li>
+          <li><b>Third Prize</b><span>Compiler Design Competition 2024.</span></li>
+          <li><b>Outstanding Students</b><span>Sun Yat-sen University scholarship, 2023-2025.</span></li>
+        </ul>
+      </div>
+    </section>
+
+  </article>
+</main>

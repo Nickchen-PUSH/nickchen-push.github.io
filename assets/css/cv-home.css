@@ -194,9 +194,9 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 999px;
   background:
-    linear-gradient(180deg, rgba(238, 246, 255, 0.96), rgba(184, 210, 236, 0.9));
-  color: #122033;
-  box-shadow: 0 10px 30px rgba(16, 17, 20, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.52);
+    linear-gradient(180deg, rgba(247, 247, 243, 0.94), rgba(207, 210, 205, 0.86));
+  color: #151c1d;
+  box-shadow: 0 10px 30px rgba(16, 17, 20, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.46);
   font-size: 14px;
   font-weight: 780;
   transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
@@ -222,8 +222,18 @@ html {
   color: rgba(255, 255, 255, 0.92);
 }
 
+.cv-button--green {
+  border-color: rgba(146, 210, 197, 0.24);
+  background:
+    radial-gradient(circle at 75% 18%, rgba(179, 238, 223, 0.12), transparent 38%),
+    linear-gradient(180deg, rgba(29, 92, 91, 0.94), rgba(18, 49, 55, 0.96));
+  color: rgba(245, 255, 252, 0.96);
+  box-shadow: 0 12px 30px rgba(3, 52, 53, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
 .cv-home-page .cv-button--dark,
-.cv-home-page .cv-button--glass {
+.cv-home-page .cv-button--glass,
+.cv-home-page .cv-button--green {
   color: #fff;
 }
 
@@ -1946,7 +1956,7 @@ html {
   }
 
   .cv-hero__inner {
-    width: min(100% - 20px, 420px);
+    width: min(100% - 64px, 420px);
     gap: 28px;
   }
 
@@ -1961,18 +1971,24 @@ html {
 
   .cv-actions {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     width: 100%;
     margin-top: 26px;
-    gap: 5px;
-    padding: 4px;
+    gap: 6px;
+    padding: 6px;
+    overflow: hidden;
+    border-radius: 28px;
   }
 
   .cv-button {
+    min-width: 0;
     width: auto;
     min-height: 42px;
-    padding: 0 10px;
-    font-size: 13px;
+    padding: 0 8px;
+    font-size: 12px;
+    line-height: 1.08;
+    text-align: center;
+    white-space: nowrap;
   }
 
   .cv-identity {

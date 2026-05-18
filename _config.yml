@@ -20,7 +20,7 @@ social-email: chenhq79@mail2.sysu.edu.cn # add your Email address
 # discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
-# analytics:  Google Analytics
+google_analytics: G-TE5Z7D6JE8
 
 # Build Settings
 markdown: kramdown
