@@ -10,9 +10,9 @@ extra_css:
 
 <main class="cv-doc">
   <nav class="cv-doc-toolbar" aria-label="CV actions">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/assets/files/Resume-Haoquan_Chen-202605.pdf' | relative_url }}">PDF Resume</a>
-    <button type="button" onclick="window.print()">Print</button>
+    <a class="cv-doc-toolbar__button cv-doc-toolbar__button--home" href="{{ '/' | relative_url }}">Home</a>
+    <a class="cv-doc-toolbar__button cv-doc-toolbar__button--pdf" href="{{ '/assets/files/Resume-Haoquan_Chen-202605.pdf' | relative_url }}">PDF Resume</a>
+    <button class="cv-doc-toolbar__button cv-doc-toolbar__button--print" type="button" onclick="window.print()">Print</button>
   </nav>
 
   <article class="cv-paper cv-paper--cover">
