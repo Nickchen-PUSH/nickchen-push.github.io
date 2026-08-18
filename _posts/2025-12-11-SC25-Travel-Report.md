@@ -171,12 +171,12 @@ St. Louis, founded in 1764 by French fur traders, is known as the “Gateway to 
 
 Yet the St. Louis I encountered was a city of contrasts. The gleaming Arch rises proudly over the west bank of the Mississippi River, while its shadow falls upon neighborhoods still grappling with the challenges of economic decline, population loss, and complex social issues. Walking through parts of the downtown area, I found the streets quiet and subdued, the air tinged with the scent of burning grass, as if carrying traces of long-forgotten stories.
 
-<!-- ![The Arch](/assets/photos/SC25/9BEF59FD-A52C-448E-8F78-AF03168511B0_1_105_c.jpeg) -->
+<!-- ![The Arch](/assets/img/GatewayArch.jpeg) -->
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="/assets/photos/SC25/9BEF59FD-A52C-448E-8F78-AF03168511B0_1_105_c.jpeg" width = "65%" alt=""/>
+    src="/assets/img/GatewayArch.jpeg" width = "65%" alt=""/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
