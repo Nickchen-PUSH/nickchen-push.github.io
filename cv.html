@@ -11,7 +11,7 @@ extra_css:
 <main class="cv-doc">
   <nav class="cv-doc-toolbar" aria-label="CV actions">
     <a class="cv-doc-toolbar__button cv-doc-toolbar__button--home" href="{{ '/' | relative_url }}">Home</a>
-    <a class="cv-doc-toolbar__button cv-doc-toolbar__button--pdf" href="{{ '/assets/files/Resume-Haoquan_Chen-202605.pdf' | relative_url }}">PDF Resume</a>
+    <a class="cv-doc-toolbar__button cv-doc-toolbar__button--pdf" href="{{ '/assets/files/Resume-Haoquan_Chen-202608.pdf' | relative_url }}">PDF Resume</a>
     <button class="cv-doc-toolbar__button cv-doc-toolbar__button--print" type="button" onclick="window.print()">Print</button>
   </nav>
 
@@ -101,6 +101,22 @@ extra_css:
 
     <section class="cv-doc-timeline">
       <div class="cv-doc-role">
+        <div class="cv-doc-logo cv-doc-logo--minimax">
+          <img src="{{ '/assets/img/logos/minimax.png' | relative_url }}" alt="MiniMax logo">
+        </div>
+        <div>
+          <time>Jul 2026 - Present</time>
+          <h3>MiniMax</h3>
+          <p>
+            Developing a Megatron-based training framework for frontier video models,
+            scaling PyTorch workloads across large GPU clusters while improving parallel
+            efficiency, communication performance, and fault recovery.
+          </p>
+          <div class="cv-doc-tags"><span>Megatron</span><span>PyTorch</span><span>NCCL</span><span>Distributed Training</span></div>
+        </div>
+      </div>
+
+      <div class="cv-doc-role">
         <div class="cv-doc-logo cv-doc-logo--sysu">
           <img src="{{ '/assets/img/logos/sysu-arx.png' | relative_url }}" alt="arcSYSu logo">
         </div>
@@ -121,7 +137,7 @@ extra_css:
           <img src="{{ '/assets/img/logos/sysu-supercomputing-horizon.png' | relative_url }}?v=2" alt="SYSU Supercomputing logo">
         </div>
         <div>
-          <time>Jun 2024 - Present</time>
+          <time>Jun 2024 - Jul 2026</time>
           <h3>SYSU Supercomputing Team</h3>
           <p>
             Full-stack HPC training from the ground up: hardware setup, cluster configuration,
@@ -152,11 +168,11 @@ extra_css:
     <section class="cv-doc-card cv-doc-card--skills cv-doc-card--skills-compact cv-doc-gap-top">
       <h2>Technical Stack</h2>
       <div class="cv-doc-skill-grid">
-        <div><b>Programming</b><span>Python, C/C++, Shell</span></div>
+        <div><b>Programming</b><span>Python, C/C++, CUDA</span></div>
         <div><b>Parallel Computing</b><span>MPI, OpenMP, SIMD</span></div>
         <div><b>Performance</b><span>Nsight, VTune, uProf, Perf</span></div>
         <div><b>HPC & Cloud</b><span>Docker, Kubernetes, Slurm</span></div>
-        <div><b>AI Infra</b><span>PyTorch, NCCL, distributed training</span></div>
+        <div><b>AI Infra</b><span>Megatron, PyTorch, NCCL</span></div>
       </div>
     </section>
   </article>
@@ -170,38 +186,42 @@ extra_css:
 
     <section class="cv-doc-grid cv-doc-grid--research">
       <div class="cv-doc-card cv-doc-card--feature">
-        <span class="cv-doc-label">SC'25 · CCF-A</span>
-        <h3>coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability</h3>
-        <p>
-          Built the transformation and evaluation workflow for heterogeneous HPC container images,
-          preserving near-native execution while improving deployment adaptability.
-        </p>
+        <div class="cv-doc-card--feature__copy">
+          <span class="cv-doc-label">SC'25 · CCF-A</span>
+          <h3>coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability</h3>
+          <p>
+            Co-developed an HPC container framework and automated validation pipeline for heterogeneous
+            clusters, preserving 97% native performance while delivering up to 253% speedup over
+            traditional deployment workflows.
+          </p>
+        </div>
         <img src="{{ '/assets/img/research/comtainer-process-models.png' | relative_url }}" alt="coMtainer framework">
-      </div>
-      <div class="cv-doc-card">
-        <span class="cv-doc-label">Submitting to SC'26</span>
-        <h3>HorizonAKMC for Large-scale Atomistic Simulation</h3>
-        <p>Distributed reinforcement-learning infrastructure for Kinetic Monte Carlo simulation on national platforms.</p>
-      </div>
-      <div class="cv-doc-card">
-        <span class="cv-doc-label">ICCCS'25</span>
-        <h3>CWL-Bubble: Extending CWL for Dynamic Scientific Workflows</h3>
-        <p>Workflow-language extension for loops and recursive task generation in complex scientific workflows.</p>
       </div>
     </section>
 
-    <section class="cv-doc-grid cv-doc-grid--two cv-doc-gap-top">
-      <div class="cv-doc-card">
-        <h2>Selected Projects</h2>
-        <ul class="cv-doc-list">
-          <li><b>OpenMX Optimization</b><span>Kernel refactoring, hybrid MPI + OpenMP, profiling on Bridges-2; 2.2x end-to-end speedup.</span></li>
-          <li><b>YatCC-OL</b><span>Browser-based HPC development platform with Flask, Redis, Docker, and Kubernetes.</span></li>
-          <li><b>PlanetWar: Maverick</b><span>WebGL space fighter game.</span></li>
-        </ul>
+    <section class="cv-doc-grid cv-doc-grid--project-panels cv-doc-gap-top">
+      <div class="cv-doc-card cv-doc-project-panel">
+        <span class="cv-doc-label">Performance Optimization</span>
+        <h3>OpenMX</h3>
+        <p>Refactored compute kernels, introduced hybrid MPI + OpenMP parallelism, and profiled on Bridges-2 to achieve a 2.2x end-to-end speedup.</p>
+        <div class="cv-doc-tags"><span>MPI</span><span>OpenMP</span><span>Bridges-2</span></div>
       </div>
-      <div class="cv-doc-card">
-        <h2>Awards</h2>
-        <ul class="cv-doc-list">
+      <div class="cv-doc-card cv-doc-project-panel">
+        <span class="cv-doc-label">GPU Acceleration</span>
+        <h3>OpenFOAM</h3>
+        <p>Optimized CUDA C++ kernels and NCCL communication with Nsight-guided profiling, delivering a 1.5x overall speedup.</p>
+        <div class="cv-doc-tags"><span>CUDA C++</span><span>NCCL</span><span>Nsight</span></div>
+      </div>
+      <div class="cv-doc-card cv-doc-project-panel">
+        <span class="cv-doc-label">HPC Platform</span>
+        <h3>YatCC-OL</h3>
+        <p>Built a Kubernetes-based HPC application platform that served more than 200 students on the Tianhe-Xingyi supercomputer.</p>
+        <div class="cv-doc-tags"><span>Kubernetes</span><span>Redis</span><span>Docker</span></div>
+      </div>
+      <div class="cv-doc-card cv-doc-project-panel cv-doc-project-panel--awards">
+        <span class="cv-doc-label">Recognition</span>
+        <h3>Awards</h3>
+        <ul class="cv-doc-list cv-doc-list--compact">
           <li><b>World Champion</b><span>ISC25 Student Cluster Competition, June 2025.</span></li>
           <li><b>Top Prize</b><span>Tencent Scholarship, ranked 1 / 424, Nov 2025.</span></li>
           <li><b>Third Prize</b><span>Compiler Design Competition 2024.</span></li>

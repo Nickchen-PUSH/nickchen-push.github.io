@@ -19,7 +19,7 @@ Then open `http://127.0.0.1:4173/`.
 - `_layouts/post.html`: standalone article layout using the same visual language as the homepage.
 - `assets/css/cv-home.css`: shared homepage, modal, tag, and post styles.
 - `assets/js/cv-home.js`: homepage motion and writing modal behavior.
-- `assets/files/Resume-Haoquan_Chen-202605.pdf`: downloadable resume.
+- `assets/files/Resume-Haoquan_Chen-202608.pdf`: downloadable resume.
 
 ## Build
 

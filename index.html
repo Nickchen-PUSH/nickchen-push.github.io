@@ -32,7 +32,7 @@ extra_js:
         <div class="cv-actions">
           <a class="cv-button cv-button--dark" href="#experience">Experience</a>
           <a class="cv-button" href="{{ '/cv/' | relative_url }}">Curriculum Vitae</a>
-          <a class="cv-button cv-button--green" href="{{ '/assets/files/Resume-Haoquan_Chen-202605.pdf' | relative_url }}">Resume PDF</a>
+          <a class="cv-button cv-button--green" href="{{ '/assets/files/Resume-Haoquan_Chen-202608.pdf' | relative_url }}">Resume PDF</a>
           <a class="cv-button cv-button--glass" href="#contact">Contact</a>
         </div>
       </div>
@@ -84,6 +84,24 @@ extra_js:
     </div>
 
     <div class="cv-list cv-list--wide">
+      <article class="cv-item cv-item--minimax reveal">
+        <div class="cv-org">
+          <div class="cv-org__logo cv-org__logo--minimax">
+            <img src="{{ '/assets/img/logos/minimax.png' | relative_url }}" alt="MiniMax">
+          </div>
+          <time>July 2026 - Present</time>
+        </div>
+        <div>
+          <h3>MiniMax</h3>
+          <p>
+            Developing a Megatron-based training framework for frontier video models,
+            scaling PyTorch workloads across large GPU clusters while improving parallel
+            efficiency, communication performance, and fault recovery.
+          </p>
+          <div class="cv-tags"><span>Megatron</span><span>PyTorch</span><span>NCCL</span><span>Distributed Training</span></div>
+        </div>
+      </article>
+
       <article class="cv-item reveal">
         <div class="cv-org">
           <div class="cv-org__logo cv-org__logo--sysu">
@@ -108,7 +126,7 @@ extra_js:
           <div class="cv-org__logo cv-org__logo--supercomputing">
             <img src="{{ '/assets/img/logos/sysu-supercomputing-horizon.png' | relative_url }}?v=2" alt="SYSU Supercomputing">
           </div>
-          <time>Jun 2024 - Present</time>
+          <time>Jun 2024 - July 2026</time>
         </div>
         <div>
           <h3>SYSU Supercomputing Team</h3>
@@ -141,7 +159,6 @@ extra_js:
         </div>
       </article>
 
-      
     </div>
   </section>
 
@@ -155,7 +172,7 @@ extra_js:
       </p>
     </div>
 
-    <div class="cv-publications">
+    <div class="cv-publications cv-publications--single">
       <article class="cv-publication cv-publication--feature reveal">
         <div>
           <span class="cv-label">SC'25 · CCF-A</span>
@@ -168,22 +185,6 @@ extra_js:
         <figure class="cv-publication__figure">
           <img src="{{ '/assets/img/research/comtainer-process-models.png' | relative_url }}" alt="coMtainer build graph and image model">
         </figure>
-      </article>
-
-      <article class="cv-publication reveal">
-        <span class="cv-label">Submitting to SC'26</span>
-        <h3>HorizonAKMC for Large-scale Atomistic Simulation</h3>
-        <p>
-          Working on distributed reinforcement-learning infrastructure for Kinetic Monte Carlo simulation across national supercomputing platforms.
-        </p>
-      </article>
-
-      <article class="cv-publication reveal">
-        <span class="cv-label">ICCCS'25</span>
-        <h3>CWL-Bubble: Extending CWL for Dynamic Scientific Workflows</h3>
-        <p>
-          Co-authored a workflow-language extension for loops and recursive task generation in complex scientific workflows.
-        </p>
       </article>
     </div>
   </section>
@@ -255,7 +256,7 @@ extra_js:
       <div class="cv-skill reveal"><b>Parallel Computing</b><span>MPI, OpenMP, SIMD</span></div>
       <div class="cv-skill reveal"><b>Performance Tools</b><span>Nsight, VTune, uProf, Perf</span></div>
       <div class="cv-skill reveal"><b>HPC & Cloud</b><span>Docker, Kubernetes, Slurm</span></div>
-      <div class="cv-skill reveal"><b>AI Infrastructure</b><span>PyTorch, NCCL, distributed training systems</span></div>
+      <div class="cv-skill reveal"><b>AI Infrastructure</b><span>Megatron, PyTorch, NCCL</span></div>
     </div>
   </section>
 
@@ -312,6 +313,41 @@ extra_js:
     </div>
   </section>
 
+  <section class="cv-section cv-section--friends" id="friends">
+    <div class="cv-friends-panel reveal">
+      <div class="cv-friends-panel__heading">
+        <div>
+          <p class="cv-kicker">Friends</p>
+          <h2>Young talent, building what’s next.</h2>
+        </div>
+      </div>
+      <div class="cv-friends-grid" aria-label="Friends' personal websites">
+        <a class="cv-friend" href="https://liaohr9.github.io/" target="_blank" rel="noopener">
+          <div class="cv-friend__top">
+            <span class="cv-friend__avatar cv-friend__avatar--photo">
+              <img src="{{ '/assets/img/friends/haoran-liao.webp' | relative_url }}" alt="Haoran Liao">
+            </span>
+            <span class="cv-friend__arrow" aria-hidden="true">↗</span>
+          </div>
+          <h3>Haoran Liao</h3>
+          <p>Rising robotics researcher pushing the frontier of dexterous manipulation.</p>
+          <span class="cv-friend__domain">liaohr9.github.io</span>
+        </a>
+        <a class="cv-friend" href="https://yinrx3.github.io/index.html" target="_blank" rel="noopener">
+          <div class="cv-friend__top">
+            <span class="cv-friend__avatar cv-friend__avatar--photo">
+              <img src="{{ '/assets/img/friends/runxuan-yin.jpg' | relative_url }}" alt="Runxuan Yin">
+            </span>
+            <span class="cv-friend__arrow" aria-hidden="true">↗</span>
+          </div>
+          <h3>Runxuan Yin</h3>
+          <p>Mathematical thinker exploring data science and systems, with a PhD path ahead at CUHK.</p>
+          <span class="cv-friend__domain">yinrx3.github.io</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <footer class="cv-footer" id="contact">
     <div>
       <p class="cv-kicker">Contact</p>
@@ -320,7 +356,7 @@ extra_js:
     <div class="cv-footer__links">
       <a href="mailto:chenhq79@mail2.sysu.edu.cn">chenhq79@mail2.sysu.edu.cn</a>
       <a href="https://github.com/Nickchen-PUSH" rel="noopener">GitHub</a>
-      <a href="{{ '/assets/files/Resume-Haoquan_Chen-202605.pdf' | relative_url }}">PDF Resume</a>
+      <a href="{{ '/assets/files/Resume-Haoquan_Chen-202608.pdf' | relative_url }}">PDF Resume</a>
     </div>
   </footer>
 </main>

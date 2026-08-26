@@ -638,23 +638,127 @@
   height: 108%;
 }
 
+.cv-doc-logo--minimax {
+  padding: 4mm;
+  border-color: rgba(244, 63, 105, 0.18);
+  background:
+    radial-gradient(circle at 10% 20%, rgba(255, 53, 116, 0.12), transparent 42%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(255, 245, 242, 0.82));
+}
+
+.cv-paper--systems .cv-doc-section {
+  margin-bottom: 4mm;
+}
+
+.cv-paper--systems .cv-doc-timeline {
+  gap: 2.4mm;
+}
+
+.cv-paper--systems .cv-doc-role {
+  grid-template-columns: 40mm minmax(0, 1fr);
+  gap: 4mm;
+  padding: 3mm 4mm;
+}
+
+.cv-paper--systems .cv-doc-logo {
+  width: 37mm;
+  height: 21mm;
+}
+
+.cv-paper--systems .cv-doc-role h3 {
+  font-size: 14.5pt;
+}
+
+.cv-paper--systems .cv-doc-role p {
+  margin-top: 1.2mm;
+  font-size: 8.65pt;
+  line-height: 1.34;
+}
+
+.cv-paper--systems .cv-doc-tags {
+  gap: 1.4mm;
+}
+
+.cv-paper--systems .cv-doc-tags span {
+  min-height: 5.6mm;
+  padding: 0 2.2mm;
+  font-size: 7.4pt;
+}
+
 .cv-doc-grid--research {
-  grid-template-columns: 1.16fr 0.84fr;
+  grid-template-columns: 1fr;
 }
 
 .cv-doc-card--feature {
-  grid-row: span 2;
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 5mm;
+  align-items: center;
+}
+
+.cv-doc-card--feature__copy h3 {
+  margin: 2.5mm 0 0;
+  color: var(--doc-blue);
+  font-size: 17pt;
+  line-height: 1.04;
 }
 
 .cv-doc-card--feature img {
   display: block;
   width: 100%;
-  max-height: 56mm;
-  margin-top: 3mm;
+  max-height: 49mm;
   border: 1px solid rgba(13, 127, 120, 0.12);
   border-radius: 9px;
   background: rgba(255, 255, 255, 0.55);
   object-fit: contain;
+}
+
+.cv-doc-grid--project-panels {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4mm;
+}
+
+.cv-doc-project-panel {
+  display: flex;
+  min-height: 51mm;
+  flex-direction: column;
+}
+
+.cv-doc-project-panel h3 {
+  margin: 2mm 0 0;
+  color: var(--doc-blue);
+  font-size: 16pt;
+  line-height: 1;
+}
+
+.cv-doc-project-panel p {
+  font-size: 8.9pt;
+  line-height: 1.38;
+}
+
+.cv-doc-project-panel .cv-doc-tags {
+  margin-top: auto;
+  padding-top: 3mm;
+}
+
+.cv-doc-project-panel .cv-doc-tags span {
+  min-height: 6mm;
+  padding: 0 2.4mm;
+  font-size: 7.8pt;
+}
+
+.cv-doc-project-panel--awards .cv-doc-list {
+  gap: 1.8mm;
+  margin-top: 2.5mm;
+}
+
+.cv-doc-project-panel--awards .cv-doc-list b {
+  font-size: 9pt;
+}
+
+.cv-doc-project-panel--awards .cv-doc-list span {
+  font-size: 7.8pt;
+  line-height: 1.25;
 }
 
 .cv-doc-label {
@@ -772,9 +876,14 @@
   .cv-doc-grid--cover-meta,
   .cv-doc-grid--two,
   .cv-doc-grid--research,
+  .cv-doc-grid--project-panels,
   .cv-doc-role,
   .cv-doc-skill-grid,
   .cv-doc-cover-signals {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-doc-card--feature {
     grid-template-columns: 1fr;
   }
 
