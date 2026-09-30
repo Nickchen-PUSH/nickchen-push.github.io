@@ -24,6 +24,25 @@ if ("IntersectionObserver" in window && !prefersReducedMotion) {
 
 const parallaxImage = document.querySelector("[data-parallax]");
 
+const sectionLinks = Array.from(document.querySelectorAll('.cv-nav a[href^="#"]'));
+if ("IntersectionObserver" in window && sectionLinks.length) {
+  const navObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      sectionLinks.forEach((link) => {
+        if (link.getAttribute("href") === `#${entry.target.id}`) {
+          link.setAttribute("aria-current", "location");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    });
+  }, { rootMargin: "-15% 0px -70% 0px", threshold: 0 });
+  document.querySelectorAll(".cv-site > section[id], .cv-footer[id]").forEach((section) => {
+    navObserver.observe(section);
+  });
+}
+
 if (parallaxImage && !prefersReducedMotion) {
   let ticking = false;
 
@@ -226,6 +245,13 @@ if (parallaxImage && !prefersReducedMotion) {
     removeDuplicateContentTitle();
     normalizeArticleImages();
     setDialogTitle(trigger);
+    window.renderCVMath?.(article);
+    window.decorateCVArticle?.(article);
+    const permalink = document.createElement("a");
+    permalink.className = "cv-post-article__permalink";
+    permalink.href = trigger.href;
+    permalink.textContent = "Read full article ↗";
+    article.querySelector(".cv-post-article__header")?.appendChild(permalink);
     lockBodyScroll();
     setSiteHidden(true);
     modal.setAttribute("aria-hidden", "false");

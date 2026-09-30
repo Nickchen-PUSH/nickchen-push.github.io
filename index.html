@@ -6,7 +6,9 @@ body_class: cv-home-page
 extra_css:
   - /assets/css/cv-home.css
 extra_js:
+  - /assets/js/cv-post.js
   - /assets/js/cv-home.js
+math: true
 ---
 
 <main class="cv-site">
@@ -24,14 +26,13 @@ extra_js:
     <div class="cv-hero__inner">
       <div class="cv-hero__copy reveal">
         <span class="cv-kicker">A young HPC + AI infra enthusiast</span>
-        <h1>Haoquan Chen<br>陈淏泉</h1>
+        <h1><span class="cv-hero__name">Haoquan Chen</span><span class="cv-hero__name-cn" lang="zh-CN">陈淏泉</span></h1>
         <p>
           I build the infrastructure layer between ambitious workloads and the
           heterogeneous machines that run them.
         </p>
         <div class="cv-actions">
-          <a class="cv-button cv-button--dark" href="#experience">Experience</a>
-          <a class="cv-button" href="{{ '/cv/' | relative_url }}">Curriculum Vitae</a>
+          <a class="cv-button cv-button--dark" href="{{ '/cv/' | relative_url }}">Curriculum Vitae</a>
           <a class="cv-button cv-button--green" href="{{ '/assets/files/Resume-Haoquan_Chen-202608.pdf' | relative_url }}">Resume PDF</a>
           <a class="cv-button cv-button--glass" href="#contact">Contact</a>
         </div>
@@ -45,7 +46,7 @@ extra_js:
             <span>Computer Science</span>
           </div>
           <div class="cv-identity__metrics">
-            <div><b>3.9</b><span>GPA / 4.0 at SYSU</span></div>
+            <div class="cv-identity__work"><b>MiniMax</b><span>Video Model Training</span></div>
             <div><b>2027</b><span>Expected graduation</span></div>
           </div>
         </div>
@@ -176,7 +177,8 @@ extra_js:
       <article class="cv-publication cv-publication--feature reveal">
         <div>
           <span class="cv-label">SC'25 · CCF-A</span>
-          <h3>coMtainer: Compilation-assisted HPC Container Images with Enhanced Adaptability</h3>
+          <h3>coMtainer</h3>
+          <p class="cv-publication__title">Compilation-assisted HPC Container Images with Enhanced Adaptability</p>
           <p>
             Built the container transformation and evaluation workflow for heterogeneous HPC clusters,
             preserving near-native execution while improving deployment adaptability.
@@ -205,7 +207,7 @@ extra_js:
         <h3>Performance Optimization of OpenMX</h3>
         <p>
           Optimized the nanomaterials simulation package on Bridges-2 using profiling, kernel refactoring,
-          and hybrid MPI + OpenMP parallelization. Achieved 2.2x end-to-end performance improvement.
+          and hybrid MPI + OpenMP parallelization. Achieved <strong>2.2x end-to-end performance improvement.</strong>
         </p>
         <div class="cv-tags"><span>C/C++</span><span>Fortran</span><span>MPI+OpenMP</span><span>VTune</span><span>uProf</span><span>ScaLAPACK/ELPA</span></div>
       </article>
@@ -221,12 +223,14 @@ extra_js:
       </a>
 
       <a class="cv-project cv-project--game reveal" href="http://chen-hq.site/SpaceWar/" target="_blank" rel="noreferrer">
-        <span class="cv-label">WebGL · Space fighter game</span>
-        <h3>PlanetWar: Maverick</h3>
-        <p>
-          Press to play
-        </p>
-        <div class="cv-tags"><span>WebGL</span><span>JavaScript</span><span>Game</span></div>
+        <div class="cv-project__copy">
+          <span class="cv-label">WebGL · Space fighter game</span>
+          <h3>PlanetWar: Maverick</h3>
+          <p>A WebGL space fighter game, playable directly in your browser.</p>
+          <div class="cv-tags"><span>WebGL</span><span>JavaScript</span><span>Game</span></div>
+          <span class="cv-project__cta">Play in browser <span aria-hidden="true">↗</span></span>
+        </div>
+        <img class="cv-project__preview" src="{{ '/assets/img/projects/mavlogo.png' | relative_url }}" alt="PlanetWar: Maverick game logo" loading="lazy">
       </a>
     </div>
   </section>

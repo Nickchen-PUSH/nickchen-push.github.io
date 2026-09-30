@@ -3,7 +3,7 @@ layout: post
 title: My trip report | HPC-China@武汉
 date: 2024-09-28 21:00:00 +0800
 description: My trip report of HPC-China 2024@武汉 # Add post description (optional)
-img: WuHan-JiangHanRoad.jpeg # Add image post (optional)
+img: ../photos/WuHan-HuangHeLou.jpeg
 fig-caption: # Add figcaption (optional)
 tags: [blog,Trip Report,WuHan,HPC]
 ---

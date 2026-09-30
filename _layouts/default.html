@@ -7,8 +7,9 @@
   <div class="wrapper">
     {{ content }}
   </div>
-  {% if page.extra_js %}
-    {% for script in page.extra_js %}
+  {% assign extra_scripts = page.extra_js | default: layout.extra_js %}
+  {% if extra_scripts %}
+    {% for script in extra_scripts %}
       <script src="{{ script | relative_url }}"></script>
     {% endfor %}
   {% endif %}

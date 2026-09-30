@@ -78,7 +78,7 @@
 
 	<meta name="description" content="{{ page.description }}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:image" content="">
 	<link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
 	<link rel="apple-touch-icon" href="{{ "/assets/img/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
@@ -93,5 +93,8 @@
     {% for stylesheet in extra_stylesheets %}
       <link rel="stylesheet" href="{{ stylesheet | relative_url }}?v={{ site.time | date: '%s' }}">
     {% endfor %}
+  {% endif %}
+  {% if page.math or layout.math %}
+    {% include math.html %}
   {% endif %}
 </head>
