@@ -442,7 +442,7 @@ html {
 
 .cv-proof__grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
 }
 
@@ -1945,6 +1945,39 @@ a.cv-friend:focus-visible {
   border: 0;
   background: transparent;
   color: rgba(255, 255, 255, 0.86);
+}
+
+.cv-post-page .cv-post-article__content .gpu-mechanism-figure,
+.cv-post-modal__article .gpu-mechanism-figure {
+  margin: 36px 0;
+}
+
+.cv-post-page .cv-post-article__content .gpu-mechanism-figure > a,
+.cv-post-modal__article .gpu-mechanism-figure > a {
+  display: block;
+  cursor: zoom-in;
+}
+
+.cv-post-page .cv-post-article__content .gpu-mechanism-figure img,
+.cv-post-modal__article .gpu-mechanism-figure img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  margin: 0;
+  border: 1px solid var(--cv-line);
+  box-shadow: none;
+}
+
+.gpu-mechanism-figure figcaption {
+  margin-top: 12px;
+  color: #5f6269;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.gpu-mechanism-figure figcaption a {
+  white-space: nowrap;
 }
 
 .cv-post-shell__tags,
